@@ -1,2 +1,2 @@
 # DWB-Contrib
-xslt files for various DWB-Clients used for creating printlabels, imports and exports
+xslt files for various DWB-Clients used for creating imports and exports and printing labels

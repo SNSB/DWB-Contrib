@@ -9,4 +9,4 @@ The import table includes the following information:
 
 This import schema was created based on the original organization of the data. For a further successful use of this schema, please keep in mind that interface settings e.g. CollectionID or ProjectID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
 
-Please check 'BSMgpiplantscoll_Import_Explanation.pdf'. for further details about the import settings of each column. 
+Please check 'BSMgpiplantscoll_Import_Explanation.pdf' for further details about the import settings of each column. 

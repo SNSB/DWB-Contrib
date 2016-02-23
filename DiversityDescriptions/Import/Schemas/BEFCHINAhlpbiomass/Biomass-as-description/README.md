@@ -1,1 +1,1 @@
-This example imports each data line of the import file as a separate description. In the "Matrix Wizard" of DiversityDescriptions open the data file BEFCHINAhlpbiomass_Import_Table.txt and use import schema BEFCHINAhlpbiomass_D_Import_Schema.xml.
+This example imports each data line of the import file as a separate description. In DiversityDescriptions create the project  "Biomass as description" and a descriptor tree with the same name. In the "Matrix Wizard" open the data file BEFCHINAhlpbiomass_Import_Table.txt and use import schema BEFCHINAhlpbiomass_D_Import_Schema.xml.

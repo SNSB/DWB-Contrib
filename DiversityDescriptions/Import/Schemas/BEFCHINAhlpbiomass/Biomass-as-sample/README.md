@@ -1,1 +1,1 @@
-
+This example creates a new description item and imports each comparative study plot (CSP) the import file as a separate sampling event and appends all associated data lines as sampling units. In the "Matrix Wizard" of DiversityDescriptions select the target "Sampling event", open the data file BEFCHINAhlpbiomass_Import_Table.txt and use import schema BEFCHINAhlpbiomass_S_Import_Schema.xml.

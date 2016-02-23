@@ -1,1 +1,1 @@
-
+This example imports each data line of the import file as a separate description. In the "Matrix Wizard" of DiversityDescriptions open the data file BEFCHINAhlpbiomass_Import_Table.txt and use import schema BEFCHINAhlpbiomass_D_Import_Schema.xml.

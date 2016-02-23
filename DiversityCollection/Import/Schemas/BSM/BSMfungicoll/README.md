@@ -1,4 +1,6 @@
-This import schema was used for the import of collection data in the fungi collection of the M Herbarium. The import table includes the following information:
+This import schema was used for the import of collection data in the fungi collection of the M Herbarium. 
+
+The import table includes the following information:
 
 -	Specimen Acc. Nr.
 -	Location (Country, locality description, coordinates, altitude and collection date)

@@ -144,3 +144,5 @@ The settings for the import of the voucher are described below:
         
 Alternatively, the data could also be imported as one only record as shown below:
 
+![MYFBA_Data_Preview_DNA+Voucher.jpg](https://github.com/SNSB/DWB-Contrib/blob/master/DiversityCollection/Import/Schemas/ZSM/ZSMbfbcoll/MYFBA_Data_Preview_DNA+Voucher.jpg?raw=true)
+

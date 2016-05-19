@@ -11,6 +11,8 @@ The import table includes the following information:
 
 Additonally the DOI of the publication was included as an external identifier.
 
+This import schema was created based on the original organization of the data. For a further successful use of this schema, please keep in mind that interface settings e.g. CollectionID, ProjectID, AnalysisID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
+
 The data was imported as two linked records (DNA Sample and voucher). 
 
 The settings for the import of the DNA are described below: 

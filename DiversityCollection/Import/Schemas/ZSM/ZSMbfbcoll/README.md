@@ -1,4 +1,4 @@
-These import schemas were used for the import of data downloaded from BOLD (http://www.boldsystems.org). This data can also be accessed on-line.
+##These import schemas were used for the import of data downloaded from BOLD (http://www.boldsystems.org). This data can also be accessed on-line.
 
 The import table includes the following information:
 

@@ -3,11 +3,11 @@ These import schemas were used for the import of data downloaded from BOLD (http
 The import table includes the following information:
 
 - Identifiers (e.g. SampleID, FieldID, ProcessID, BIN)
-- Location (Country, collection date, region, coordinates,  altitude)
+- Location (Country, collection date, region, coordinates,  altitude, depth, habitat)
 - Identification (Including identifier, life stage, sex)
 - Collector name
 - GenBank Accession Number
-- Parameters regarding the sequencing: sequence length, barcode compliance, trace count
+- Parameters regarding the sequencing: primers, trace links, sequencing center, run date, sequence length, barcode compliance, trace count
 
 
 This import schema was created based on the original organization of the data. For a further successful use of this schema, please keep in mind that interface settings e.g. CollectionID, ProjectID, AnalysisID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.

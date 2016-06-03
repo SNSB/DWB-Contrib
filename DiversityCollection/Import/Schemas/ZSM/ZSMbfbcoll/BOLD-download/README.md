@@ -9,7 +9,7 @@ The import table includes the following information:
 - GenBank Accession Number
 - Parameters regarding the sequencing: sequence length, barcode compliance, trace count
 
-Additonally the DOI of the publication was included as an external identifier.
+Additionally the DOI of the publication was included as an external identifier.
 
 This import schema was created based on the original organization of the data. For a further successful use of this schema, please keep in mind that interface settings e.g. CollectionID, ProjectID, AnalysisID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
 

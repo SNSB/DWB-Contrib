@@ -1,4 +1,4 @@
-This import schema was created for the import of plant observations in the framework of the project "Flora von Bayern". For more information visit http://www.bayernflora.de/web/
+This import schema was created for the import of plant observations in the context of the project "Flora von Bayern". For more information visit http://www.bayernflora.de/web/
 
 The import table includes the following information:
 

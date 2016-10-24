@@ -2,7 +2,7 @@ This import schema was created for the import of plant observations in the conte
 
 The import table includes the following information:
 
-- Location (Collection date, locality description, habitat, altitude, MTB, Coordinates in Gauss-Krüger)
+- Location (Collection date, locality description, habitat, altitude, MTB, coordinates in Gauss-Krüger)
 - Observer name
 - Identification using a list or entering names
 - Analysis data: Floristic status, number of units and area

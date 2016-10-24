@@ -1,4 +1,4 @@
-This import schema was created for the import of digitised herbarium sheets from different bavarian herbariums for the project "Flora von Bayern". For more information visit http://www.bayernflora.de/web/
+This import schema was created for the import of data from digitised herbarium sheets of herbaria in Bavaria as done for the project "Flora von Bayern". For more information visit http://www.bayernflora.de
 
 The import table includes the following information:
 - Specimen Acc. No.

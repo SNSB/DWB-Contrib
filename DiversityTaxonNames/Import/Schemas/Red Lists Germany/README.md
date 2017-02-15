@@ -3,9 +3,9 @@ This import schema allows the update of taxa in DiversityTaxonNames with its Red
 For the import, it was necessary to include a new column providing the NameID in DiversityTaxonNames in order to allow the update.
 The import table includes the following information:
 
-•	Red list category
-•	Responsibility of Germany
-•	Current population trend
+-	Red list category
+- Responsibility of Germany
+- Current population trend
 •	Long-term population trend
 •	Short-term population trend
 •	Risk

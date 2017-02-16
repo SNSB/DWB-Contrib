@@ -8,7 +8,7 @@ The import table includes the following information:
 - Current population trend
 - Long-term population trend
 - Short-term population trend
-- Risk
+- Risk factors
 - Special cases
 - Latest evidence
 - German common name

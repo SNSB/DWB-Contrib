@@ -1,0 +1,9 @@
+ID	ZSM.No	tissue	preparation	Part1Notes	Proccessing 1.1Protocoll	Processing Date	Proccessing 1.2Protocoll	tissue subsamples to [create external relation]	tissue subsample relation1Notes
+	ZSM-PIS-033457	BayFi 13648	muscular tissue		Ethanol preservation (96% absolut ethanol)	20.6.2016	Chlorobutanol		
+	ZSM-PIS-033457	BayFi 13649	muscular tissue		Ethanol preservation (96% absolut ethanol)	20.6.2016	Chlorobutanol		
+	ZSM-PIS-033457	BayFi 13650	muscular tissue		Ethanol preservation (96% absolut ethanol)	20.6.2016	Chlorobutanol		
+	ZSM-PIS-033457	BayFi 13651	muscular tissue		Ethanol preservation (96% absolut ethanol)	20.6.2016	Chlorobutanol		
+	ZSM-PIS-034538	BayFi 5185	fin sample		Ethanol preservation (96% absolut ethanol)	1.6.2006	Chlorobutanol		
+	ZSM-PIS-034538	BayFi 5186	fin sample		Ethanol preservation (96% absolut ethanol)	1.6.2006	Chlorobutanol		
+	ZSM-PIS-034539	BayFi 5187	fin sample		Ethanol preservation (96% absolut ethanol)	1.6.2006	Chlorobutanol		
+	ZSM-PIS-034539	BayFi 5188	fin sample		Ethanol preservation (96% absolut ethanol)	1.6.2006	Chlorobutanol		

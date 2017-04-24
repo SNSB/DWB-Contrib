@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportSchedule version="1" Module="DiversityDescriptions" Target="Descriptor" DBversion="03.00.17">
+  <Encoding>ANSI</Encoding>
+  <StartLine>2</StartLine>
+  <EndLine>10</EndLine>
+  <FirstLineContainsColumnDefinition>True</FirstLineContainsColumnDefinition>
+  <Language>US</Language>
+  <AttachmentTableAlias>Descriptor</AttachmentTableAlias>
+  <AttachmentColumn>id</AttachmentColumn>
+  <Responsible>Link</Responsible>
+  <Date>Dienstag, 11. April 2017</Date>
+  <Time>15:44:48</Time>
+  <Server>training.diversityworkbench.de</Server>
+  <Database>DiversityDescriptions_Workshop</Database>
+  <Tables>
+    <Table TableAlias="Descriptor">
+      <TableName>Descriptor</TableName>
+      <MergeHandling>Attach</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>True</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="CategoricalState_1">
+      <TableName>CategoricalState</TableName>
+      <ParentTableAlias>Descriptor</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Filter">
+              <FilterUseFixedValue>True</FilterUseFixedValue>
+              <FilterFixedValue>Yes</FilterFixedValue>
+              <FilterConditionsOperator>And</FilterConditionsOperator>
+              <FilterConditions>
+                <FilterCondition>
+                  <Filter>Bool</Filter>
+                  <FilterColumn>2</FilterColumn>
+                  <FilterOperator>=</FilterOperator>
+                </FilterCondition>
+              </FilterConditions>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="label">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>Yes</Value>
+        </Column>
+        <Column ColumnName="display_order">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>1</Value>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="CategoricalState_2">
+      <TableName>CategoricalState</TableName>
+      <ParentTableAlias>Descriptor</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Filter">
+              <FilterUseFixedValue>True</FilterUseFixedValue>
+              <FilterFixedValue>No</FilterFixedValue>
+              <FilterConditionsOperator>And</FilterConditionsOperator>
+              <FilterConditions>
+                <FilterCondition>
+                  <Filter>Bool</Filter>
+                  <FilterColumn>2</FilterColumn>
+                  <FilterOperator>=</FilterOperator>
+                </FilterCondition>
+              </FilterConditions>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="label">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>No</Value>
+        </Column>
+        <Column ColumnName="display_order">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>2</Value>
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <Protocol>
+    <NumberOfLines>9</NumberOfLines>
+    <NumberOfLinesImported>2</NumberOfLinesImported>
+    <NumberOfLinesEmpty>7</NumberOfLinesEmpty>
+    <NumberOfLinesNoDifference>0</NumberOfLinesNoDifference>
+    <NumberOfLinesUpdated>0</NumberOfLinesUpdated>
+    <NumberOfFailedImportLines>0</NumberOfFailedImportLines>
+    <ImportErrors />
+  </Protocol>
+  <Description>
+    <FileColumns>
+      <FileColumn Position="0" ColumnHeader="QuestionNumber" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Attach" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <CompareKey />
+            <Value>1</Value>
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_1" MergeHandling="Insert" Name="label" IsMultiColumn="False">
+            <Value>1</Value>
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_1" MergeHandling="Insert" Name="display_order" IsMultiColumn="False">
+            <Value>1</Value>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="1" ColumnHeader="QuestionText" IsImported="true">
+        <Columns />
+      </FileColumn>
+      <FileColumn Position="2" ColumnHeader="Type" IsImported="true">
+        <Columns>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_1" MergeHandling="Insert" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <Transformations>
+              <Transformation TypeOfTransformation="Filter">
+                <FilterUseFixedValue>True</FilterUseFixedValue>
+                <FilterFixedValue>Yes</FilterFixedValue>
+                <FilterConditionsOperator>And</FilterConditionsOperator>
+                <FilterConditions>
+                  <FilterCondition>
+                    <Filter>Bool</Filter>
+                    <FilterColumn>2</FilterColumn>
+                    <FilterOperator>=</FilterOperator>
+                  </FilterCondition>
+                </FilterConditions>
+              </Transformation>
+            </Transformations>
+            <Value>Text</Value>
+            <TransformedValue>Yes</TransformedValue>
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_2" MergeHandling="Insert" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <Transformations>
+              <Transformation TypeOfTransformation="Filter">
+                <FilterUseFixedValue>True</FilterUseFixedValue>
+                <FilterFixedValue>No</FilterFixedValue>
+                <FilterConditionsOperator>And</FilterConditionsOperator>
+                <FilterConditions>
+                  <FilterCondition>
+                    <Filter>Bool</Filter>
+                    <FilterColumn>2</FilterColumn>
+                    <FilterOperator>=</FilterOperator>
+                  </FilterCondition>
+                </FilterConditions>
+              </Transformation>
+            </Transformations>
+            <Value>Text</Value>
+            <TransformedValue>No</TransformedValue>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="3" ColumnHeader="Values" IsImported="false" />
+      <FileColumn Position="4" ColumnHeader="Unit" IsImported="true">
+        <Columns />
+      </FileColumn>
+    </FileColumns>
+    <InterfaceSettings>
+      <Table>
+        <Column Table="CategoricalState" TableAlias="CategoricalState_1" Name="label">
+          <Value>Yes</Value>
+        </Column>
+        <Column Table="CategoricalState" TableAlias="CategoricalState_1" Name="display_order">
+          <Value>1</Value>
+        </Column>
+        <Column Table="CategoricalState" TableAlias="CategoricalState_2" Name="label">
+          <Value>No</Value>
+        </Column>
+        <Column Table="CategoricalState" TableAlias="CategoricalState_2" Name="display_order">
+          <Value>2</Value>
+        </Column>
+      </Table>
+    </InterfaceSettings>
+  </Description>
+</ImportSchedule>

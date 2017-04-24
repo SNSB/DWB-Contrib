@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportSchedule version="1" Module="DiversityDescriptions" Target="Description" DBversion="03.00.17">
+  <Encoding>ANSI</Encoding>
+  <StartLine>2</StartLine>
+  <EndLine>28</EndLine>
+  <FirstLineContainsColumnDefinition>True</FirstLineContainsColumnDefinition>
+  <Language>de</Language>
+  <AttachmentTableAlias>Description</AttachmentTableAlias>
+  <AttachmentColumn>id</AttachmentColumn>
+  <Responsible>Link</Responsible>
+  <Date>Mittwoch, 12. April 2017</Date>
+  <Time>15:19:31</Time>
+  <Server>training.diversityworkbench.de</Server>
+  <Database>DiversityDescriptions_Workshop</Database>
+  <Tables>
+    <Table TableAlias="Description">
+      <TableName>Description</TableName>
+      <MergeHandling>Attach</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>True</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>Database</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="CategoricalSummaryData_1">
+      <TableName>CategoricalSummaryData</TableName>
+      <ParentTableAlias>Description</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Database</TypeOfSource>
+        </Column>
+        <Column ColumnName="description_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="state_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <MultiColumns>
+            <MultiColumn>
+              <CopyPrevious>False</CopyPrevious>
+              <ColumnInFile>1</ColumnInFile>
+              <IsDecisive>False</IsDecisive>
+              <Prefix>|</Prefix>
+              <Postfix />
+            </MultiColumn>
+          </MultiColumns>
+        </Column>
+        <Column ColumnName="notes">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="QuantitativeSummaryData_1">
+      <TableName>QuantitativeSummaryData</TableName>
+      <ParentTableAlias>Description</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Database</TypeOfSource>
+        </Column>
+        <Column ColumnName="measure_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>Central or typical value (human estimate)</Value>
+        </Column>
+        <Column ColumnName="description_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>1</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="value">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="notes">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="TextDescriptorData_1">
+      <TableName>TextDescriptorData</TableName>
+      <ParentTableAlias>Description</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Database</TypeOfSource>
+        </Column>
+        <Column ColumnName="description_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>1</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="content">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="notes">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="DescriptorStatusData_1">
+      <TableName>DescriptorStatusData</TableName>
+      <ParentTableAlias>Description</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Database</TypeOfSource>
+        </Column>
+        <Column ColumnName="description_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>1</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="datastatus_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Translation">
+              <Translations>
+                <Translation From="" To="Data unavailable" />
+                <Translation From="10" To="" />
+                <Translation From="2" To="" />
+                <Translation From="5" To="" />
+                <Translation From="5000" To="" />
+                <Translation From="999,99" To="" />
+                <Translation From="Annual crops" To="" />
+                <Translation From="Austria" To="" />
+                <Translation From="Cereals" To="" />
+                <Translation From="Conventional farming" To="" />
+                <Translation From="Farming methods using less synthetic fertilizers and pesticides" To="" />
+                <Translation From="Farming methods using organic fertilizers" To="" />
+                <Translation From="Female" To="" />
+                <Translation From="France" To="" />
+                <Translation From="Germany" To="" />
+                <Translation From="Male" To="" />
+                <Translation From="No" To="" />
+                <Translation From="Organic farming" To="" />
+                <Translation From="Others" To="" />
+                <Translation From="Yes" To="" />
+              </Translations>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="notes">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <Protocol>
+    <NumberOfLines>27</NumberOfLines>
+    <NumberOfLinesImported>26</NumberOfLinesImported>
+    <NumberOfLinesEmpty>0</NumberOfLinesEmpty>
+    <NumberOfLinesNoDifference>0</NumberOfLinesNoDifference>
+    <NumberOfLinesUpdated>0</NumberOfLinesUpdated>
+    <NumberOfFailedImportLines>1</NumberOfFailedImportLines>
+    <ImportErrors>
+      <ImportError>
+        <Line>24</Line>
+        <Table>
+          <TableAlias>CategoricalSummaryData_1</TableAlias>
+          <TableDisplayText>Categorical data</TableDisplayText>
+          <Error>
+            Column state_id: The value  ''  is no number
+            Incorrect syntax near ')'.
+          </Error>
+        </Table>
+      </ImportError>
+    </ImportErrors>
+  </Protocol>
+  <Description>
+    <FileColumns>
+      <FileColumn Position="0" ColumnHeader="ClientNumber" IsImported="true">
+        <Columns>
+          <Column Table="Description" TableAlias="Description" MergeHandling="Attach" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <CompareKey />
+            <Value>100</Value>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="1" ColumnHeader="QuestionNumber" IsImported="true">
+        <Columns>
+          <Column Table="CategoricalSummaryData" TableAlias="CategoricalSummaryData_1" MergeHandling="Insert" Name="state_id" IsMultiColumn="True">
+            <Prefix>|</Prefix>
+            <Value>1</Value>
+            <TransformedValue>|1</TransformedValue>
+          </Column>
+          <Column Table="QuantitativeSummaryData" TableAlias="QuantitativeSummaryData_1" MergeHandling="Insert" Name="descriptor_id" IsMultiColumn="False">
+            <Value>1</Value>
+          </Column>
+          <Column Table="TextDescriptorData" TableAlias="TextDescriptorData_1" MergeHandling="Insert" Name="descriptor_id" IsMultiColumn="False">
+            <Value>1</Value>
+          </Column>
+          <Column Table="DescriptorStatusData" TableAlias="DescriptorStatusData_1" MergeHandling="Insert" Name="descriptor_id" IsMultiColumn="False">
+            <Value>1</Value>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="2" ColumnHeader="Answer" IsImported="true">
+        <Columns>
+          <Column Table="CategoricalSummaryData" TableAlias="CategoricalSummaryData_1" MergeHandling="Insert" Name="state_id" IsMultiColumn="False">
+            <IsDecisive />
+            <Value>Germany</Value>
+          </Column>
+          <Column Table="QuantitativeSummaryData" TableAlias="QuantitativeSummaryData_1" MergeHandling="Insert" Name="value" IsMultiColumn="False">
+            <IsDecisive />
+            <Value>Germany</Value>
+          </Column>
+          <Column Table="TextDescriptorData" TableAlias="TextDescriptorData_1" MergeHandling="Insert" Name="content" IsMultiColumn="False">
+            <IsDecisive />
+            <Value>Germany</Value>
+          </Column>
+          <Column Table="DescriptorStatusData" TableAlias="DescriptorStatusData_1" MergeHandling="Insert" Name="datastatus_id" IsMultiColumn="False">
+            <IsDecisive />
+            <Transformations>
+              <Transformation TypeOfTransformation="Translation">
+                <Translations>
+                  <Translation From="" To="Data unavailable" />
+                  <Translation From="10" To="" />
+                  <Translation From="2" To="" />
+                  <Translation From="5" To="" />
+                  <Translation From="5000" To="" />
+                  <Translation From="999,99" To="" />
+                  <Translation From="Annual crops" To="" />
+                  <Translation From="Austria" To="" />
+                  <Translation From="Cereals" To="" />
+                  <Translation From="Conventional farming" To="" />
+                  <Translation From="Farming methods using less synthetic fertilizers and pesticides" To="" />
+                  <Translation From="Farming methods using organic fertilizers" To="" />
+                  <Translation From="Female" To="" />
+                  <Translation From="France" To="" />
+                  <Translation From="Germany" To="" />
+                  <Translation From="Male" To="" />
+                  <Translation From="No" To="" />
+                  <Translation From="Organic farming" To="" />
+                  <Translation From="Others" To="" />
+                  <Translation From="Yes" To="" />
+                </Translations>
+              </Transformation>
+            </Transformations>
+            <Value>Germany</Value>
+            <TransformedValue />
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="3" ColumnHeader="Notes" IsImported="true">
+        <Columns>
+          <Column Table="CategoricalSummaryData" TableAlias="CategoricalSummaryData_1" MergeHandling="Insert" Name="notes" IsMultiColumn="False">
+            <Value />
+          </Column>
+          <Column Table="QuantitativeSummaryData" TableAlias="QuantitativeSummaryData_1" MergeHandling="Insert" Name="notes" IsMultiColumn="False">
+            <Value />
+          </Column>
+          <Column Table="TextDescriptorData" TableAlias="TextDescriptorData_1" MergeHandling="Insert" Name="notes" IsMultiColumn="False">
+            <Value />
+          </Column>
+          <Column Table="DescriptorStatusData" TableAlias="DescriptorStatusData_1" MergeHandling="Insert" Name="notes" IsMultiColumn="False">
+            <Value />
+          </Column>
+        </Columns>
+      </FileColumn>
+    </FileColumns>
+    <InterfaceSettings>
+      <Table>
+        <Column Table="QuantitativeSummaryData" TableAlias="QuantitativeSummaryData_1" Name="measure_id">
+          <Value>Central or typical value (human estimate)</Value>
+          <Display>Central or typical value (human estimate)</Display>
+        </Column>
+      </Table>
+    </InterfaceSettings>
+  </Description>
+</ImportSchedule>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportSchedule version="1" Module="DiversityDescriptions" Target="Descriptor" DBversion="03.00.17">
+  <Encoding>ANSI</Encoding>
+  <StartLine>2</StartLine>
+  <EndLine>10</EndLine>
+  <FirstLineContainsColumnDefinition>True</FirstLineContainsColumnDefinition>
+  <Language>US</Language>
+  <Responsible>Link</Responsible>
+  <Date>Dienstag, 11. April 2017</Date>
+  <Time>12:56:46</Time>
+  <Server>training.diversityworkbench.de</Server>
+  <Database>DiversityDescriptions_Workshop</Database>
+  <Tables>
+    <Table TableAlias="Descriptor">
+      <TableName>Descriptor</TableName>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="label">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>1</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="display_order">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="subclass">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Translation">
+              <Translations>
+                <Translation From="" To="" />
+                <Translation From="Bool" To="categorical" />
+                <Translation From="Integer" To="quantitative" />
+                <Translation From="Real" To="quantitative" />
+                <Translation From="Text" To="text" />
+              </Translations>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="measurement_unit">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>4</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="DescriptorTreeNode">
+      <TableName>DescriptorTreeNode</TableName>
+      <ParentTableAlias>Descriptor</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="display_order">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="descriptortree_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>Main tree for Agricultural survey</Value>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <Protocol>
+    <NumberOfLines>9</NumberOfLines>
+    <NumberOfLinesImported>9</NumberOfLinesImported>
+    <NumberOfLinesEmpty>0</NumberOfLinesEmpty>
+    <NumberOfLinesNoDifference>0</NumberOfLinesNoDifference>
+    <NumberOfLinesUpdated>0</NumberOfLinesUpdated>
+    <NumberOfFailedImportLines>0</NumberOfFailedImportLines>
+    <ImportErrors />
+  </Protocol>
+  <Description>
+    <FileColumns>
+      <FileColumn Position="0" ColumnHeader="QuestionNumber" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Insert" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <Value>1</Value>
+          </Column>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Insert" Name="display_order" IsMultiColumn="False">
+            <Value>1</Value>
+          </Column>
+          <Column Table="DescriptorTreeNode" TableAlias="DescriptorTreeNode" MergeHandling="Insert" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <Value>1</Value>
+          </Column>
+          <Column Table="DescriptorTreeNode" TableAlias="DescriptorTreeNode" MergeHandling="Insert" Name="display_order" IsMultiColumn="False">
+            <Value>1</Value>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="1" ColumnHeader="QuestionText" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Insert" Name="label" IsMultiColumn="False">
+            <Value>Where do you live?</Value>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="2" ColumnHeader="Type" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Insert" Name="subclass" IsMultiColumn="False">
+            <Transformations>
+              <Transformation TypeOfTransformation="Translation">
+                <Translations>
+                  <Translation From="" To="" />
+                  <Translation From="Bool" To="categorical" />
+                  <Translation From="Integer" To="quantitative" />
+                  <Translation From="Real" To="quantitative" />
+                  <Translation From="Text" To="text" />
+                </Translations>
+              </Transformation>
+            </Transformations>
+            <Value>Text</Value>
+            <TransformedValue>text</TransformedValue>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="3" ColumnHeader="Values" IsImported="false" />
+      <FileColumn Position="4" ColumnHeader="Unit" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Insert" Name="measurement_unit" IsMultiColumn="False">
+            <Value />
+          </Column>
+        </Columns>
+      </FileColumn>
+    </FileColumns>
+    <InterfaceSettings>
+      <Table>
+        <Column Table="DescriptorTreeNode" TableAlias="DescriptorTreeNode" Name="descriptortree_id">
+          <Value>Main tree for Agricultural survey</Value>
+        </Column>
+      </Table>
+    </InterfaceSettings>
+  </Description>
+</ImportSchedule>

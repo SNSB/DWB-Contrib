@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportSchedule version="1" Module="DiversityDescriptions" Target="Descriptor" DBversion="03.00.17">
+  <Encoding>ANSI</Encoding>
+  <StartLine>2</StartLine>
+  <EndLine>10</EndLine>
+  <FirstLineContainsColumnDefinition>True</FirstLineContainsColumnDefinition>
+  <Language>US</Language>
+  <AttachmentTableAlias>Descriptor</AttachmentTableAlias>
+  <AttachmentColumn>id</AttachmentColumn>
+  <Responsible>Link</Responsible>
+  <Date>Dienstag, 11. April 2017</Date>
+  <Time>14:55:07</Time>
+  <Server>training.diversityworkbench.de</Server>
+  <Database>DiversityDescriptions_Workshop</Database>
+  <Tables>
+    <Table TableAlias="Descriptor">
+      <TableName>Descriptor</TableName>
+      <MergeHandling>Update</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>True</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="values_are_integer">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Translation">
+              <Translations>
+                <Translation From="" To="" />
+                <Translation From="Bool" To="" />
+                <Translation From="Integer" To="1" />
+                <Translation From="Real" To="" />
+                <Translation From="Text" To="" />
+              </Translations>
+            </Transformation>
+          </Transformations>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="DescriptorTreeNode">
+      <TableName>DescriptorTreeNode</TableName>
+      <ParentTableAlias>Descriptor</ParentTableAlias>
+      <MergeHandling>Attach</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>True</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="DescriptorTreeNodeRecStatMeasure_1">
+      <TableName>DescriptorTreeNodeRecStatMeasure</TableName>
+      <ParentTableAlias>DescriptorTreeNode</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Database</TypeOfSource>
+        </Column>
+        <Column ColumnName="node_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="measure_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>Central or typical value (human estimate)</Value>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="DescriptorTreeNodeRecModifier_1">
+      <TableName>DescriptorTreeNodeRecModifier</TableName>
+      <ParentTableAlias>DescriptorTreeNode</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Database</TypeOfSource>
+        </Column>
+        <Column ColumnName="node_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="modifier_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>almost</Value>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="DescriptorTreeNodeRecFrequency_1">
+      <TableName>DescriptorTreeNodeRecFrequency</TableName>
+      <ParentTableAlias>DescriptorTreeNode</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Database</TypeOfSource>
+        </Column>
+        <Column ColumnName="node_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="frequency_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>often</Value>
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <Protocol>
+    <NumberOfLines>9</NumberOfLines>
+    <NumberOfLinesImported>9</NumberOfLinesImported>
+    <NumberOfLinesEmpty>0</NumberOfLinesEmpty>
+    <NumberOfLinesNoDifference>0</NumberOfLinesNoDifference>
+    <NumberOfLinesUpdated>0</NumberOfLinesUpdated>
+    <NumberOfFailedImportLines>0</NumberOfFailedImportLines>
+    <ImportErrors />
+  </Protocol>
+  <Description>
+    <FileColumns>
+      <FileColumn Position="0" ColumnHeader="QuestionNumber" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Update" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <CompareKey />
+            <Value>1</Value>
+          </Column>
+          <Column Table="DescriptorTreeNode" TableAlias="DescriptorTreeNode" MergeHandling="Attach" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <CompareKey />
+            <Value>1</Value>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="1" ColumnHeader="QuestionText" IsImported="true">
+        <Columns />
+      </FileColumn>
+      <FileColumn Position="2" ColumnHeader="Type" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Update" Name="values_are_integer" IsMultiColumn="False">
+            <Transformations>
+              <Transformation TypeOfTransformation="Translation">
+                <Translations>
+                  <Translation From="" To="" />
+                  <Translation From="Bool" To="" />
+                  <Translation From="Integer" To="1" />
+                  <Translation From="Real" To="" />
+                  <Translation From="Text" To="" />
+                </Translations>
+              </Transformation>
+            </Transformations>
+            <Value>Text</Value>
+            <TransformedValue />
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="3" ColumnHeader="Values" IsImported="false" />
+      <FileColumn Position="4" ColumnHeader="Unit" IsImported="true">
+        <Columns />
+      </FileColumn>
+    </FileColumns>
+    <InterfaceSettings>
+      <Table>
+        <Column Table="DescriptorTreeNode" TableAlias="DescriptorTreeNode" Name="descriptortree_id">
+          <Value>Main tree for Agricultural survey</Value>
+          <Display>Main tree for Agricultural survey</Display>
+        </Column>
+      </Table>
+      <Table>
+        <Column Table="DescriptorTreeNodeRecFrequency" TableAlias="DescriptorTreeNodeRecFrequency_1" Name="frequency_id">
+          <Value>often</Value>
+        </Column>
+      </Table>
+      <Table>
+        <Column Table="DescriptorTreeNodeRecModifier" TableAlias="DescriptorTreeNodeRecModifier_1" Name="modifier_id">
+          <Value>almost</Value>
+        </Column>
+      </Table>
+      <Table>
+        <Column Table="DescriptorTreeNodeRecStatMeasure" TableAlias="DescriptorTreeNodeRecStatMeasure_1" Name="measure_id">
+          <Value>Central or typical value (human estimate)</Value>
+        </Column>
+      </Table>
+    </InterfaceSettings>
+  </Description>
+</ImportSchedule>

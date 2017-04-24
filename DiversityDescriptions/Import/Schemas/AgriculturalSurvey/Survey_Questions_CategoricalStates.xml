@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportSchedule version="1" Module="DiversityDescriptions" Target="Descriptor" DBversion="03.00.17">
+  <Encoding>ANSI</Encoding>
+  <StartLine>2</StartLine>
+  <EndLine>10</EndLine>
+  <FirstLineContainsColumnDefinition>True</FirstLineContainsColumnDefinition>
+  <Language>US</Language>
+  <AttachmentTableAlias>Descriptor</AttachmentTableAlias>
+  <AttachmentColumn>id</AttachmentColumn>
+  <Responsible>Link</Responsible>
+  <Date>Dienstag, 11. April 2017</Date>
+  <Time>16:41:51</Time>
+  <Server>training.diversityworkbench.de</Server>
+  <Database>DiversityDescriptions_Workshop</Database>
+  <Tables>
+    <Table TableAlias="Descriptor">
+      <TableName>Descriptor</TableName>
+      <MergeHandling>Update</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>True</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="subclass">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>2</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Filter">
+              <FilterUseFixedValue>True</FilterUseFixedValue>
+              <FilterFixedValue>categorical</FilterFixedValue>
+              <FilterConditionsOperator>And</FilterConditionsOperator>
+              <FilterConditions>
+                <FilterCondition>
+                  <Filter />
+                  <FilterColumn>3</FilterColumn>
+                  <FilterOperator>≠</FilterOperator>
+                </FilterCondition>
+              </FilterConditions>
+            </Transformation>
+          </Transformations>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="CategoricalState_1">
+      <TableName>CategoricalState</TableName>
+      <ParentTableAlias>Descriptor</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Split">
+              <SplitterPosition>1</SplitterPosition>
+              <ReverseSequence>False</ReverseSequence>
+              <Splitters>
+                <Splitter> | </Splitter>
+              </Splitters>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="label">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Split">
+              <SplitterPosition>1</SplitterPosition>
+              <ReverseSequence>False</ReverseSequence>
+              <Splitters>
+                <Splitter> | </Splitter>
+              </Splitters>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="display_order">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>1</Value>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="CategoricalState_2">
+      <TableName>CategoricalState</TableName>
+      <ParentTableAlias>Descriptor</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Split">
+              <SplitterPosition>2</SplitterPosition>
+              <ReverseSequence>False</ReverseSequence>
+              <Splitters>
+                <Splitter> | </Splitter>
+              </Splitters>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="label">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Split">
+              <SplitterPosition>2</SplitterPosition>
+              <ReverseSequence>False</ReverseSequence>
+              <Splitters>
+                <Splitter> | </Splitter>
+              </Splitters>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="display_order">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>2</Value>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="CategoricalState_3">
+      <TableName>CategoricalState</TableName>
+      <ParentTableAlias>Descriptor</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Split">
+              <SplitterPosition>3</SplitterPosition>
+              <ReverseSequence>False</ReverseSequence>
+              <Splitters>
+                <Splitter> | </Splitter>
+              </Splitters>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="label">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Split">
+              <SplitterPosition>3</SplitterPosition>
+              <ReverseSequence>False</ReverseSequence>
+              <Splitters>
+                <Splitter> | </Splitter>
+              </Splitters>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="display_order">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>3</Value>
+        </Column>
+      </Columns>
+    </Table>
+    <Table TableAlias="CategoricalState_4">
+      <TableName>CategoricalState</TableName>
+      <ParentTableAlias>Descriptor</ParentTableAlias>
+      <MergeHandling>Insert</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Split">
+              <SplitterPosition>4</SplitterPosition>
+              <ReverseSequence>False</ReverseSequence>
+              <Splitters>
+                <Splitter> | </Splitter>
+              </Splitters>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="descriptor_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>ParentTable</TypeOfSource>
+        </Column>
+        <Column ColumnName="label">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>3</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+          <Transformations>
+            <Transformation TypeOfTransformation="Split">
+              <SplitterPosition>4</SplitterPosition>
+              <ReverseSequence>False</ReverseSequence>
+              <Splitters>
+                <Splitter> | </Splitter>
+              </Splitters>
+            </Transformation>
+          </Transformations>
+        </Column>
+        <Column ColumnName="display_order">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>4</Value>
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <Protocol>
+    <NumberOfLines>9</NumberOfLines>
+    <NumberOfLinesImported>4</NumberOfLinesImported>
+    <NumberOfLinesEmpty>0</NumberOfLinesEmpty>
+    <NumberOfLinesNoDifference>5</NumberOfLinesNoDifference>
+    <NumberOfLinesUpdated>0</NumberOfLinesUpdated>
+    <NumberOfFailedImportLines>0</NumberOfFailedImportLines>
+    <ImportErrors />
+  </Protocol>
+  <Description>
+    <FileColumns>
+      <FileColumn Position="0" ColumnHeader="QuestionNumber" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Update" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <CompareKey />
+            <Value>1</Value>
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_1" MergeHandling="Insert" Name="display_order" IsMultiColumn="False">
+            <Value>1</Value>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="1" ColumnHeader="QuestionText" IsImported="true">
+        <Columns />
+      </FileColumn>
+      <FileColumn Position="2" ColumnHeader="Type" IsImported="true">
+        <Columns>
+          <Column Table="Descriptor" TableAlias="Descriptor" MergeHandling="Update" Name="subclass" IsMultiColumn="False">
+            <Transformations>
+              <Transformation TypeOfTransformation="Filter">
+                <FilterUseFixedValue>True</FilterUseFixedValue>
+                <FilterFixedValue>categorical</FilterFixedValue>
+                <FilterConditionsOperator>And</FilterConditionsOperator>
+                <FilterConditions>
+                  <FilterCondition>
+                    <Filter />
+                    <FilterColumn>3</FilterColumn>
+                    <FilterOperator>≠</FilterOperator>
+                  </FilterCondition>
+                </FilterConditions>
+              </Transformation>
+            </Transformations>
+            <Value>Text</Value>
+            <TransformedValue />
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="3" ColumnHeader="Values" IsImported="true">
+        <Columns>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_1" MergeHandling="Insert" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <Transformations>
+              <Transformation TypeOfTransformation="Split">
+                <SplitterPosition>1</SplitterPosition>
+                <ReverseSequence>False</ReverseSequence>
+                <Splitters>
+                  <Splitter> | </Splitter>
+                </Splitters>
+              </Transformation>
+            </Transformations>
+            <Value />
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_1" MergeHandling="Insert" Name="label" IsMultiColumn="False">
+            <Transformations>
+              <Transformation TypeOfTransformation="Split">
+                <SplitterPosition>1</SplitterPosition>
+                <ReverseSequence>False</ReverseSequence>
+                <Splitters>
+                  <Splitter> | </Splitter>
+                </Splitters>
+              </Transformation>
+            </Transformations>
+            <Value />
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_2" MergeHandling="Insert" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <Transformations>
+              <Transformation TypeOfTransformation="Split">
+                <SplitterPosition>2</SplitterPosition>
+                <ReverseSequence>False</ReverseSequence>
+                <Splitters>
+                  <Splitter> | </Splitter>
+                </Splitters>
+              </Transformation>
+            </Transformations>
+            <Value />
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_2" MergeHandling="Insert" Name="label" IsMultiColumn="False">
+            <Transformations>
+              <Transformation TypeOfTransformation="Split">
+                <SplitterPosition>2</SplitterPosition>
+                <ReverseSequence>False</ReverseSequence>
+                <Splitters>
+                  <Splitter> | </Splitter>
+                </Splitters>
+              </Transformation>
+            </Transformations>
+            <Value />
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_3" MergeHandling="Insert" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <Transformations>
+              <Transformation TypeOfTransformation="Split">
+                <SplitterPosition>3</SplitterPosition>
+                <ReverseSequence>False</ReverseSequence>
+                <Splitters>
+                  <Splitter> | </Splitter>
+                </Splitters>
+              </Transformation>
+            </Transformations>
+            <Value />
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_3" MergeHandling="Insert" Name="label" IsMultiColumn="False">
+            <Transformations>
+              <Transformation TypeOfTransformation="Split">
+                <SplitterPosition>3</SplitterPosition>
+                <ReverseSequence>False</ReverseSequence>
+                <Splitters>
+                  <Splitter> | </Splitter>
+                </Splitters>
+              </Transformation>
+            </Transformations>
+            <Value />
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_4" MergeHandling="Insert" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <Transformations>
+              <Transformation TypeOfTransformation="Split">
+                <SplitterPosition>4</SplitterPosition>
+                <ReverseSequence>False</ReverseSequence>
+                <Splitters>
+                  <Splitter> | </Splitter>
+                </Splitters>
+              </Transformation>
+            </Transformations>
+            <Value />
+          </Column>
+          <Column Table="CategoricalState" TableAlias="CategoricalState_4" MergeHandling="Insert" Name="label" IsMultiColumn="False">
+            <Transformations>
+              <Transformation TypeOfTransformation="Split">
+                <SplitterPosition>4</SplitterPosition>
+                <ReverseSequence>False</ReverseSequence>
+                <Splitters>
+                  <Splitter> | </Splitter>
+                </Splitters>
+              </Transformation>
+            </Transformations>
+            <Value />
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="4" ColumnHeader="Unit" IsImported="true">
+        <Columns />
+      </FileColumn>
+    </FileColumns>
+    <InterfaceSettings>
+      <Table>
+        <Column Table="CategoricalState" TableAlias="CategoricalState_1" Name="display_order">
+          <Value>1</Value>
+        </Column>
+        <Column Table="CategoricalState" TableAlias="CategoricalState_2" Name="display_order">
+          <Value>2</Value>
+        </Column>
+        <Column Table="CategoricalState" TableAlias="CategoricalState_3" Name="display_order">
+          <Value>3</Value>
+        </Column>
+        <Column Table="CategoricalState" TableAlias="CategoricalState_4" Name="display_order">
+          <Value>4</Value>
+        </Column>
+      </Table>
+    </InterfaceSettings>
+  </Description>
+</ImportSchedule>

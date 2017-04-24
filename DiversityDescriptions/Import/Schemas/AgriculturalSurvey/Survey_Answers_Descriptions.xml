@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportSchedule version="1" Module="DiversityDescriptions" Target="Description" DBversion="03.00.17">
+  <Encoding>ANSI</Encoding>
+  <StartLine>2</StartLine>
+  <EndLine>28</EndLine>
+  <FirstLineContainsColumnDefinition>True</FirstLineContainsColumnDefinition>
+  <Language>de</Language>
+  <Responsible>Link</Responsible>
+  <Date>Mittwoch, 12. April 2017</Date>
+  <Time>15:18:02</Time>
+  <Server>training.diversityworkbench.de</Server>
+  <Database>DiversityDescriptions_Workshop</Database>
+  <Tables>
+    <Table TableAlias="Description">
+      <TableName>Description</TableName>
+      <MergeHandling>Merge</MergeHandling>
+      <Columns>
+        <Column ColumnName="id">
+          <CompareKey>True</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>True</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="label">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <FileColumn>0</FileColumn>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>File</TypeOfSource>
+        </Column>
+        <Column ColumnName="project_id">
+          <CompareKey>False</CompareKey>
+          <CopyPrevious>False</CopyPrevious>
+          <IsDecisive>False</IsDecisive>
+          <TypeOfSource>Interface</TypeOfSource>
+          <Value>Agricultural survey</Value>
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <Protocol>
+    <NumberOfLines>27</NumberOfLines>
+    <NumberOfLinesImported>3</NumberOfLinesImported>
+    <NumberOfLinesEmpty>0</NumberOfLinesEmpty>
+    <NumberOfLinesNoDifference>24</NumberOfLinesNoDifference>
+    <NumberOfLinesUpdated>0</NumberOfLinesUpdated>
+    <NumberOfFailedImportLines>0</NumberOfFailedImportLines>
+    <ImportErrors />
+  </Protocol>
+  <Description>
+    <FileColumns>
+      <FileColumn Position="0" ColumnHeader="ClientNumber" IsImported="true">
+        <Columns>
+          <Column Table="Description" TableAlias="Description" MergeHandling="Merge" Name="id" IsMultiColumn="False">
+            <IsDecisive />
+            <CompareKey />
+            <Value>100</Value>
+          </Column>
+          <Column Table="Description" TableAlias="Description" MergeHandling="Merge" Name="label" IsMultiColumn="False">
+            <Value>100</Value>
+          </Column>
+        </Columns>
+      </FileColumn>
+      <FileColumn Position="1" ColumnHeader="QuestionNumber" IsImported="false" />
+      <FileColumn Position="2" ColumnHeader="Answer" IsImported="false" />
+      <FileColumn Position="3" ColumnHeader="Notes" IsImported="false" />
+    </FileColumns>
+    <InterfaceSettings>
+      <Table>
+        <Column Table="Description" TableAlias="Description" Name="project_id">
+          <Value>Agricultural survey</Value>
+        </Column>
+      </Table>
+    </InterfaceSettings>
+  </Description>
+</ImportSchedule>

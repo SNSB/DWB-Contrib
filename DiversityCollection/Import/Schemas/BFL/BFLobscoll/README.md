@@ -7,7 +7,9 @@ The import table includes the following information:
 - Identification using a list or entering names
 - Analysis data: Floristic status, number of units and area
 
-We strongly recommend the use of the new data entry form, which allows an easier and standarized data entry. Please download the last version of the data entry form from here: http://www.bayernflora.de/web/Excel-Tabellen_zur_Eingabe_von_Beobachtungsdaten
+We strongly recommend the use of the new data entry form, which allows an easier and standarized data entry. Please download the last version of the data entry form from here: 
+http://www.bayernflora.de/web/Excel-Tabellen_zur_Eingabe_von_Beobachtungsdaten
+
 For the import you need to convert the Excel file into a txt file and then remove the first five lines of the document. Please use the import schema named „BFLobscoll_02_Import_Schema.xml“ to import the data.
 
 If you prefer to work with the previous template: please download the Excel file „BFLobscoll_01_Import_Table.xlsx“ and use the import schema BFLobscoll_01_Import_Schema.xml to import the data.

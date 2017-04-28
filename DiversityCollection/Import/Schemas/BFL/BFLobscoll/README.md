@@ -1,15 +1,21 @@
-This import schema was created for the import of plant observations in the context of the project "Flora von Bayern". For more information visit http://www.bayernflora.de
+These import schemas were created for the import of plant observations in the context of the project "Flora von Bayern". For more information about the project visit http://www.bayernflora.de
 
 The import table includes the following information:
 
-- Location (Collection date, locality description, habitat, altitude, MTB, coordinates in Gauss-Krüger)
-- Observer name
+- Location (Collection date, locality description, habitat, altitude, MTB, coordinates)
+- Observer‘s name
 - Identification using a list or entering names
 - Analysis data: Floristic status, number of units and area
 
+We strongly recommend the use of the new data entry form, which allows an easier and standarized data entry. Please download the last version of the data entry form from here: http://www.bayernflora.de/web/Excel-Tabellen_zur_Eingabe_von_Beobachtungsdaten
+For the import you need to convert the Excel file into a txt file and then remove the first five lines of the document. Please use the import schema named „BFLobscoll_02_Import_Schema.xml“ to import the data.
+
+If you prefer to work with the previous template: please download the Excel file „BFLobscoll_01_Import_Table.xlsx“ and use the import schema BFLobscoll_01_Import_Schema.xml to import the data.
+
 Any other information that is not included in the defined columns should be added to the free columns at the right side of the table. The import schema should be updated/modified in order to import this addition.
 
-This import schema was created based on the original organization of the data. For a further successful use of this schema, please note that the interface settings e.g. CollectionID or ProjectID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
+This import schema was created based on the original organization of the data. For a further successful use of this schema, please note that the interface settings e.g. CollectionID, ProjectID or AnalysisID should be adapted to your installation, as well as other settings like prefixes, postfixes, splitters or filters.
+
 
 <hr /><br /><span style="    font-size: 12pt; font-family: Arial"><b>File columns</b><br /></span><table cellspacing="2" cellpadding="0" border="0" width="1000" style="  font-size: 10pt; font-family: Arial; table-layout:fixed; overflow:scroll;"><colgroup><col width="30" /><col width="170" /><col width="200" /><col width="200" /><col width="200" /><col width="200" /></colgroup><tr><th bgcolor="#CCCCCC">Pos.</th><th bgcolor="#CCCCCC" align="left">Name</th><th bgcolor="#CCCCCC" align="left">Table</th><th bgcolor="#CCCCCC" align="left">Column</th><th width="200" bgcolor="#CCCCCC" align="left">Example</th><th width="200" bgcolor="#CCCCCC" align="left">Transformed</th></tr><tr bgcolor="#EEEEEE"><td align="center">0</td><td colspan="5">Datum</td></tr><tr><td align="right" style="color: #008000; font-size: 18pt" /><td valign="top" align="right" colspan="2" bgcolor="#99FF00">CollectionEvent.
 											</td><td valign="top" bgcolor="#FFFF00" style=" font-size: 10pt; font-family: Arial; color: green"><b>CollectionDay</b></td><td valign="top" style="word-wrap: break-word; word-break: break-all;">23</td><td valign="top" style="word-wrap: break-word; word-break: break-all;"></td></tr><tr><td align="right" style="color: #008000; font-size: 18pt" /><td valign="top" align="right" colspan="2" bgcolor="#99FF00">CollectionSpecimen.

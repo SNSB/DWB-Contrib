@@ -1,0 +1,2475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datasets xsi:schemaLocation="http://rs.tdwg.org/UBIF/2006/ http://rs.tdwg.org/UBIF/2006/Schema/1.1/SDD.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:u="http://rs.tdwg.org/UBIF/2006/" xmlns:dwb="http://diversityworkbench.net/Portal/DiversityDescriptions" xmlns="http://rs.tdwg.org/UBIF/2006/">
+  <TechnicalMetadata created="2017-10-24T16:08:26">
+    <Generator name="DiversityDescriptions" version="3.0.1.28" notes="Software Copyright © 1995-2017, Diversity Workbench" />
+  </TechnicalMetadata>
+  <Dataset xml:lang="en">
+    <Representation>
+      <Label>Tutorial</Label>
+    </Representation>
+    <TaxonNames>
+      <TaxonName id="AA">
+        <Representation>
+          <Label xml:lang="zxx-x-taxon">Ulmus minor</Label>
+        </Representation>
+      </TaxonName>
+    </TaxonNames>
+    <DescriptiveConcepts>
+      <DescriptiveConcept id="AB">
+        <Representation>
+          <Label>Mandatory</Label>
+        </Representation>
+      </DescriptiveConcept>
+      <DescriptiveConcept id="AC">
+        <Representation>
+          <Label>Leaf</Label>
+          <Detail>This descriptor tree node collects the properties of the leaves.</Detail>
+          <MediaObject role="UnknownMediaRole" ref="AD" />
+        </Representation>
+      </DescriptiveConcept>
+      <DescriptiveConcept id="AE">
+        <Representation>
+          <Label>Biochemical</Label>
+        </Representation>
+      </DescriptiveConcept>
+      <DescriptiveConcept id="AF">
+        <Representation>
+          <Label>RecommendedModifiers</Label>
+        </Representation>
+        <Modifiers>
+          <Modifier id="AG">
+            <Representation>
+              <Label>(uncertain)</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="AH">
+            <Representation>
+              <Label>blackish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AI">
+            <Representation>
+              <Label>bluish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AJ">
+            <Representation>
+              <Label>bright</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AK">
+            <Representation>
+              <Label>brownish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AL">
+            <Representation>
+              <Label>dark</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AM">
+            <Representation>
+              <Label>deeply</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AN">
+            <Representation>
+              <Label>dull</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AO">
+            <Representation>
+              <Label>in  5-10% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.1" lowerestimate="0.05" />
+          </Modifier>
+          <Modifier id="AP">
+            <Representation>
+              <Label>in 10-25% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.25" lowerestimate="0.1" />
+          </Modifier>
+          <Modifier id="AQ">
+            <Representation>
+              <Label>in 25-50% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.5" lowerestimate="0.25" />
+          </Modifier>
+          <Modifier id="AR">
+            <Representation>
+              <Label>in 50-75% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.75" lowerestimate="0.5" />
+          </Modifier>
+          <Modifier id="AS">
+            <Representation>
+              <Label>in 75-90% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.9" lowerestimate="0.9" />
+          </Modifier>
+          <Modifier id="AT">
+            <Representation>
+              <Label>in 90-95% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.95" lowerestimate="0.9" />
+          </Modifier>
+          <Modifier id="AU">
+            <Representation>
+              <Label>very dark</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AV">
+            <Representation>
+              <Label>(rare)</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+        </Modifiers>
+      </DescriptiveConcept>
+      <DescriptiveConcept id="AW">
+        <Representation>
+          <Label>Certainty</Label>
+        </Representation>
+        <Modifiers>
+          <Modifier id="AX">
+            <Representation>
+              <Label>almost certainly</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="AY">
+            <Representation>
+              <Label>likely</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="AZ">
+            <Representation>
+              <Label>perhaps</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="BA">
+            <Representation>
+              <Label>possibly</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="BB">
+            <Representation>
+              <Label>presumably</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="BC">
+            <Representation>
+              <Label>probably</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="BD">
+            <Representation>
+              <Label>probably not</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="BE">
+            <Representation>
+              <Label>very likely</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+        </Modifiers>
+      </DescriptiveConcept>
+      <DescriptiveConcept id="BF">
+        <Representation>
+          <Label>OtherModifierClass</Label>
+        </Representation>
+        <Modifiers>
+          <Modifier id="BG">
+            <Representation>
+              <Label>greenish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BH">
+            <Representation>
+              <Label>greyish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BI">
+            <Representation>
+              <Label>light</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BJ">
+            <Representation>
+              <Label>pale</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BK">
+            <Representation>
+              <Label>purplish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BL">
+            <Representation>
+              <Label>reddish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BM">
+            <Representation>
+              <Label>whitish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BN">
+            <Representation>
+              <Label>yellowish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BO">
+            <Representation>
+              <Label>darkish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BP">
+            <Representation>
+              <Label>grayish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BQ">
+            <Representation>
+              <Label>hyaline</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BR">
+            <Representation>
+              <Label>metallic</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BS">
+            <Representation>
+              <Label>middle</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BT">
+            <Representation>
+              <Label>ochraceous</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BU">
+            <Representation>
+              <Label>pale to dark</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BV">
+            <Representation>
+              <Label>very light</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BW">
+            <Representation>
+              <Label>very pale</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BX">
+            <Representation>
+              <Label>(none seen)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BY">
+            <Representation>
+              <Label>(not seen)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="BZ">
+            <Representation>
+              <Label>(trace)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CA">
+            <Representation>
+              <Label>(traces)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CB">
+            <Representation>
+              <Label>(when present)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CC">
+            <Representation>
+              <Label>?</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CD">
+            <Representation>
+              <Label>about</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CE">
+            <Representation>
+              <Label>abruptly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CF">
+            <Representation>
+              <Label>almost</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CG">
+            <Representation>
+              <Label>at least in traces</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CH">
+            <Representation>
+              <Label>at places</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CI">
+            <Representation>
+              <Label>ca</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CJ">
+            <Representation>
+              <Label>ca.</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CK">
+            <Representation>
+              <Label>faint and rare</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CL">
+            <Representation>
+              <Label>in part</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CM">
+            <Representation>
+              <Label>in small amounts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CN">
+            <Representation>
+              <Label>in traces</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CO">
+            <Representation>
+              <Label>incompletely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CP">
+            <Representation>
+              <Label>inconspicuous</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CQ">
+            <Representation>
+              <Label>inconspicuously</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CR">
+            <Representation>
+              <Label>indistinct</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CS">
+            <Representation>
+              <Label>intense</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CT">
+            <Representation>
+              <Label>just</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CU">
+            <Representation>
+              <Label>largely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CV">
+            <Representation>
+              <Label>loosely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CW">
+            <Representation>
+              <Label>medium</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CX">
+            <Representation>
+              <Label>more</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CY">
+            <Representation>
+              <Label>more or less</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="CZ">
+            <Representation>
+              <Label>much</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DA">
+            <Representation>
+              <Label>nearly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DB">
+            <Representation>
+              <Label>normally</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DC">
+            <Representation>
+              <Label>numerous</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DD">
+            <Representation>
+              <Label>numerous small</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DE">
+            <Representation>
+              <Label>often strongly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DF">
+            <Representation>
+              <Label>or more</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DG">
+            <Representation>
+              <Label>or nearly so</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DH">
+            <Representation>
+              <Label>partly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DI">
+            <Representation>
+              <Label>rarely weak</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DJ">
+            <Representation>
+              <Label>scarcely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DK">
+            <Representation>
+              <Label>slightly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DL">
+            <Representation>
+              <Label>somewhat</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DM">
+            <Representation>
+              <Label>traces only</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DN">
+            <Representation>
+              <Label>typically</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DO">
+            <Representation>
+              <Label>usually?</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DP">
+            <Representation>
+              <Label>very</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DQ">
+            <Representation>
+              <Label>very faint and rare</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DR">
+            <Representation>
+              <Label>weak</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DS">
+            <Representation>
+              <Label>weakly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DT">
+            <Representation>
+              <Label>week to indistinct</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DU">
+            <Representation>
+              <Label>when present</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DV">
+            <Representation>
+              <Label>when present,</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DW">
+            <Representation>
+              <Label>(above)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DX">
+            <Representation>
+              <Label>(anterior)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DY">
+            <Representation>
+              <Label>(apical)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="DZ">
+            <Representation>
+              <Label>(below)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EA">
+            <Representation>
+              <Label>(distal)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EB">
+            <Representation>
+              <Label>(posterior)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EC">
+            <Representation>
+              <Label>(proximal and distal)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="ED">
+            <Representation>
+              <Label>(proximal)</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EE">
+            <Representation>
+              <Label>anterior</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EF">
+            <Representation>
+              <Label>anterior ones</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EG">
+            <Representation>
+              <Label>anteriorly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EH">
+            <Representation>
+              <Label>apical</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EI">
+            <Representation>
+              <Label>apically</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EJ">
+            <Representation>
+              <Label>at base</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EK">
+            <Representation>
+              <Label>at least at base</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EL">
+            <Representation>
+              <Label>at point of attachment</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EM">
+            <Representation>
+              <Label>at the apex</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EN">
+            <Representation>
+              <Label>at the base</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EO">
+            <Representation>
+              <Label>at the center</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EP">
+            <Representation>
+              <Label>at the margin</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EQ">
+            <Representation>
+              <Label>at the tip</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="ER">
+            <Representation>
+              <Label>at the tips</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="ES">
+            <Representation>
+              <Label>at tip</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="ET">
+            <Representation>
+              <Label>at tips</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EU">
+            <Representation>
+              <Label>at tips of branches</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EV">
+            <Representation>
+              <Label>central</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EW">
+            <Representation>
+              <Label>centrally</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EX">
+            <Representation>
+              <Label>distal</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EY">
+            <Representation>
+              <Label>distally</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="EZ">
+            <Representation>
+              <Label>downward</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FA">
+            <Representation>
+              <Label>except at base</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FB">
+            <Representation>
+              <Label>except at the center</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FC">
+            <Representation>
+              <Label>except at the margin</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FD">
+            <Representation>
+              <Label>except at tip</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FE">
+            <Representation>
+              <Label>except at very base</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FF">
+            <Representation>
+              <Label>except at very tip</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FG">
+            <Representation>
+              <Label>in lower half</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FH">
+            <Representation>
+              <Label>in lower part</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FI">
+            <Representation>
+              <Label>in older parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FJ">
+            <Representation>
+              <Label>in oldest parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FK">
+            <Representation>
+              <Label>in outer part</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FL">
+            <Representation>
+              <Label>in upper half</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FM">
+            <Representation>
+              <Label>in upper part</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FN">
+            <Representation>
+              <Label>in younger parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FO">
+            <Representation>
+              <Label>in youngest parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FP">
+            <Representation>
+              <Label>inwards from tips</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FQ">
+            <Representation>
+              <Label>locally</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FR">
+            <Representation>
+              <Label>marginal</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FS">
+            <Representation>
+              <Label>marginally</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FT">
+            <Representation>
+              <Label>near the apex</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FU">
+            <Representation>
+              <Label>near the base</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FV">
+            <Representation>
+              <Label>near the center</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FW">
+            <Representation>
+              <Label>near the margin</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FX">
+            <Representation>
+              <Label>posterior</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FY">
+            <Representation>
+              <Label>posterior ones</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="FZ">
+            <Representation>
+              <Label>posteriorly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GA">
+            <Representation>
+              <Label>proximal</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GB">
+            <Representation>
+              <Label>proximal and distal</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GC">
+            <Representation>
+              <Label>proximally</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GD">
+            <Representation>
+              <Label>proximally and distally</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GE">
+            <Representation>
+              <Label>sometimes in older parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GF">
+            <Representation>
+              <Label>sometimes in oldest parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GG">
+            <Representation>
+              <Label>sometimes in younger parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GH">
+            <Representation>
+              <Label>sometimes in youngest parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GI">
+            <Representation>
+              <Label>the anterior ones</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GJ">
+            <Representation>
+              <Label>the lower ones</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GK">
+            <Representation>
+              <Label>the posterior ones</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GL">
+            <Representation>
+              <Label>the upper ones</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GM">
+            <Representation>
+              <Label>toward the apex</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GN">
+            <Representation>
+              <Label>toward the base</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GO">
+            <Representation>
+              <Label>towards the apex</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GP">
+            <Representation>
+              <Label>towards the base</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GQ">
+            <Representation>
+              <Label>upward</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GR">
+            <Representation>
+              <Label>usually in older parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GS">
+            <Representation>
+              <Label>usually in oldest parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GT">
+            <Representation>
+              <Label>usually in younger parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GU">
+            <Representation>
+              <Label>usually in youngest parts</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GV">
+            <Representation>
+              <Label>asymmetrical</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GW">
+            <Representation>
+              <Label>attenuately</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GX">
+            <Representation>
+              <Label>bluntly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GY">
+            <Representation>
+              <Label>broad</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="GZ">
+            <Representation>
+              <Label>broadly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HA">
+            <Representation>
+              <Label>coarsely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HB">
+            <Representation>
+              <Label>compact</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HC">
+            <Representation>
+              <Label>contiguous</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HD">
+            <Representation>
+              <Label>dense</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HE">
+            <Representation>
+              <Label>densely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HF">
+            <Representation>
+              <Label>distinctly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HG">
+            <Representation>
+              <Label>evenly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HH">
+            <Representation>
+              <Label>faintly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HI">
+            <Representation>
+              <Label>finely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HJ">
+            <Representation>
+              <Label>gradually</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HK">
+            <Representation>
+              <Label>irregular</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HL">
+            <Representation>
+              <Label>irregularly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HM">
+            <Representation>
+              <Label>large</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HN">
+            <Representation>
+              <Label>long</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HO">
+            <Representation>
+              <Label>minute</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HP">
+            <Representation>
+              <Label>minutely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HQ">
+            <Representation>
+              <Label>narrow</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HR">
+            <Representation>
+              <Label>narrowly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HS">
+            <Representation>
+              <Label>obscurely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HT">
+            <Representation>
+              <Label>prominent</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HU">
+            <Representation>
+              <Label>prominently</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HV">
+            <Representation>
+              <Label>regular</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HW">
+            <Representation>
+              <Label>regularly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HX">
+            <Representation>
+              <Label>rough</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HY">
+            <Representation>
+              <Label>rounded</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="HZ">
+            <Representation>
+              <Label>short</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IA">
+            <Representation>
+              <Label>short-</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IB">
+            <Representation>
+              <Label>slender</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IC">
+            <Representation>
+              <Label>slenderly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="ID">
+            <Representation>
+              <Label>small</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IE">
+            <Representation>
+              <Label>sparsely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IF">
+            <Representation>
+              <Label>strong</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IG">
+            <Representation>
+              <Label>strongly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IH">
+            <Representation>
+              <Label>sub</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="II">
+            <Representation>
+              <Label>sub-</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IJ">
+            <Representation>
+              <Label>thick-</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IK">
+            <Representation>
+              <Label>thin-</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IL">
+            <Representation>
+              <Label>tiny</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IM">
+            <Representation>
+              <Label>usually minute</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IN">
+            <Representation>
+              <Label>velvety</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IO">
+            <Representation>
+              <Label>elongate</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IP">
+            <Representation>
+              <Label>ovate</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IQ">
+            <Representation>
+              <Label>pointed</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IR">
+            <Representation>
+              <Label>stiff</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IS">
+            <Representation>
+              <Label>stiff-</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IT">
+            <Representation>
+              <Label>stout</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IU">
+            <Representation>
+              <Label>transversely</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IV">
+            <Representation>
+              <Label>triangular</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IW">
+            <Representation>
+              <Label>very short</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IX">
+            <Representation>
+              <Label>very slender</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IY">
+            <Representation>
+              <Label>very slenderly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="IZ">
+            <Representation>
+              <Label>very small</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JA">
+            <Representation>
+              <Label>very strong</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JB">
+            <Representation>
+              <Label>very strongly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JC">
+            <Representation>
+              <Label>and</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JD">
+            <Representation>
+              <Label>or</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JE">
+            <Representation>
+              <Label>to</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JF">
+            <Representation>
+              <Label>with</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JG">
+            <Representation>
+              <Label>at first</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JH">
+            <Representation>
+              <Label>at maturity</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JI">
+            <Representation>
+              <Label>briefly</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JJ">
+            <Representation>
+              <Label>earlier</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JK">
+            <Representation>
+              <Label>early</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JL">
+            <Representation>
+              <Label>early ones</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JM">
+            <Representation>
+              <Label>first</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JN">
+            <Representation>
+              <Label>from the beginning</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JO">
+            <Representation>
+              <Label>initially</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JP">
+            <Representation>
+              <Label>late</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JQ">
+            <Representation>
+              <Label>late ones</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JR">
+            <Representation>
+              <Label>lately</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JS">
+            <Representation>
+              <Label>later</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JT">
+            <Representation>
+              <Label>soon</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JU">
+            <Representation>
+              <Label>when immature</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JV">
+            <Representation>
+              <Label>when mature</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JW">
+            <Representation>
+              <Label>when old</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JX">
+            <Representation>
+              <Label>when very old</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JY">
+            <Representation>
+              <Label>when very young</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="JZ">
+            <Representation>
+              <Label>when young</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+        </Modifiers>
+      </DescriptiveConcept>
+      <DescriptiveConcept id="KA">
+        <Representation>
+          <Label>TreatAsMisinterpretation</Label>
+        </Representation>
+        <Modifiers>
+          <Modifier id="KB">
+            <Representation>
+              <Label>(by misinterpretation)</Label>
+            </Representation>
+            <ModifierClass>TreatAsMisinterpretation</ModifierClass>
+          </Modifier>
+          <Modifier id="KC">
+            <Representation>
+              <Label>often misinterpreted as</Label>
+            </Representation>
+            <ModifierClass>TreatAsMisinterpretation</ModifierClass>
+          </Modifier>
+          <Modifier id="KD">
+            <Representation>
+              <Label>rarely misinterpreted as</Label>
+            </Representation>
+            <ModifierClass>TreatAsMisinterpretation</ModifierClass>
+          </Modifier>
+          <Modifier id="KE">
+            <Representation>
+              <Label>sometimes misinterpreted as</Label>
+            </Representation>
+            <ModifierClass>TreatAsMisinterpretation</ModifierClass>
+          </Modifier>
+        </Modifiers>
+      </DescriptiveConcept>
+      <DescriptiveConcept id="KF">
+        <Representation>
+          <Label>Frequency</Label>
+        </Representation>
+        <Modifiers>
+          <Modifier id="KG">
+            <Representation>
+              <Label>abundant</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.7" />
+          </Modifier>
+          <Modifier id="KH">
+            <Representation>
+              <Label>almost always</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.99" />
+          </Modifier>
+          <Modifier id="KI">
+            <Representation>
+              <Label>almost never</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.01" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="KJ">
+            <Representation>
+              <Label>always</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="1" />
+          </Modifier>
+          <Modifier id="KK">
+            <Representation>
+              <Label>at least one</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.1" />
+          </Modifier>
+          <Modifier id="KL">
+            <Representation>
+              <Label>at least some</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.1" />
+          </Modifier>
+          <Modifier id="KM">
+            <Representation>
+              <Label>commonly</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.7" />
+          </Modifier>
+          <Modifier id="KN">
+            <Representation>
+              <Label>few</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="KO">
+            <Representation>
+              <Label>frequently</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.7" />
+          </Modifier>
+          <Modifier id="KP">
+            <Representation>
+              <Label>if present,</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="KQ">
+            <Representation>
+              <Label>infrequently</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.25" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="KR">
+            <Representation>
+              <Label>less often</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.5" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="KS">
+            <Representation>
+              <Label>many</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.75" />
+          </Modifier>
+          <Modifier id="KT">
+            <Representation>
+              <Label>more commonly</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.5" />
+          </Modifier>
+          <Modifier id="KU">
+            <Representation>
+              <Label>more often</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.5" />
+          </Modifier>
+          <Modifier id="KV">
+            <Representation>
+              <Label>most commonly</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.8" />
+          </Modifier>
+          <Modifier id="KW">
+            <Representation>
+              <Label>mostly</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.5" />
+          </Modifier>
+          <Modifier id="KX">
+            <Representation>
+              <Label>never</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="KY">
+            <Representation>
+              <Label>not commonly</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="KZ">
+            <Representation>
+              <Label>occasional</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LA">
+            <Representation>
+              <Label>occasionally</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LB">
+            <Representation>
+              <Label>often</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.5" />
+          </Modifier>
+          <Modifier id="LC">
+            <Representation>
+              <Label>predominant</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.7" />
+          </Modifier>
+          <Modifier id="LD">
+            <Representation>
+              <Label>predominantly</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.7" />
+          </Modifier>
+          <Modifier id="LE">
+            <Representation>
+              <Label>rarely</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LF">
+            <Representation>
+              <Label>rarely absent</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LG">
+            <Representation>
+              <Label>repeatedly</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LH">
+            <Representation>
+              <Label>scarce</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LI">
+            <Representation>
+              <Label>scattered</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LJ">
+            <Representation>
+              <Label>sometimes</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LK">
+            <Representation>
+              <Label>uncommon</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LL">
+            <Representation>
+              <Label>usually</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.7" />
+          </Modifier>
+          <Modifier id="LM">
+            <Representation>
+              <Label>with or without</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LN">
+            <Representation>
+              <Label>(mostly)</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.5" />
+          </Modifier>
+          <Modifier id="LO">
+            <Representation>
+              <Label>(rarely)</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LP">
+            <Representation>
+              <Label>(sometimes)</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LQ">
+            <Representation>
+              <Label>nearly always</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.99" />
+          </Modifier>
+          <Modifier id="LR">
+            <Representation>
+              <Label>seldom</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LS">
+            <Representation>
+              <Label>very rarely</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.01" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LT">
+            <Representation>
+              <Label>in less than  5% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LU">
+            <Representation>
+              <Label>in less than 10% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.1" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LV">
+            <Representation>
+              <Label>in less than 25% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.25" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LW">
+            <Representation>
+              <Label>in less than 50% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.5" lowerestimate="0" />
+          </Modifier>
+          <Modifier id="LX">
+            <Representation>
+              <Label>in more than 50% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.5" />
+          </Modifier>
+          <Modifier id="LY">
+            <Representation>
+              <Label>in more than 75% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.75" />
+          </Modifier>
+          <Modifier id="LZ">
+            <Representation>
+              <Label>in more than 90% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.9" />
+          </Modifier>
+          <Modifier id="MA">
+            <Representation>
+              <Label>in more than 95% of samples</Label>
+            </Representation>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="1" lowerestimate="0.95" />
+          </Modifier>
+        </Modifiers>
+      </DescriptiveConcept>
+    </DescriptiveConcepts>
+    <Characters>
+      <CategoricalCharacter id="MB">
+        <Representation>
+          <Label>Plant growth type</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Mandatory>true</dwb:Mandatory>
+          <dwb:Exclusive>true</dwb:Exclusive>
+        </dwb:Extension>
+        <States>
+          <StateDefinition id="MC">
+            <Representation>
+              <Label>Tree</Label>
+            </Representation>
+          </StateDefinition>
+          <StateDefinition id="MD">
+            <Representation>
+              <Label>Shrub</Label>
+            </Representation>
+          </StateDefinition>
+          <StateDefinition id="ME">
+            <Representation>
+              <Label>Succulent</Label>
+              <Detail>E.g. cactus - &lt;u&gt;&lt;b&gt;without&lt;/b&gt;&lt;/u&gt; leaves</Detail>
+            </Representation>
+          </StateDefinition>
+          <StateDefinition id="MF">
+            <Representation>
+              <Label>Herb</Label>
+            </Representation>
+          </StateDefinition>
+          <StateDefinition id="MG">
+            <Representation>
+              <Label>Other</Label>
+            </Representation>
+          </StateDefinition>
+        </States>
+        <Assumptions>
+          <MeasurementScale>Nominal</MeasurementScale>
+        </Assumptions>
+      </CategoricalCharacter>
+      <CategoricalCharacter id="MH">
+        <Representation>
+          <Label>Leaf color</Label>
+          <MediaObject role="UnknownMediaRole" ref="MI" />
+        </Representation>
+        <States>
+          <StateDefinition id="MJ">
+            <Representation>
+              <Label>green</Label>
+              <Label role="Abbrev">gn</Label>
+              <MediaObject role="Secondary" ref="MK" />
+              <MediaObject role="Secondary" ref="ML" />
+              <MediaObject role="Secondary" ref="MM" />
+            </Representation>
+          </StateDefinition>
+          <StateDefinition id="MN">
+            <Representation>
+              <Label>yellow</Label>
+              <Label role="Abbrev">ye</Label>
+              <MediaObject role="Secondary" ref="MO" />
+              <MediaObject role="Secondary" ref="MP" />
+            </Representation>
+          </StateDefinition>
+          <StateDefinition id="MQ">
+            <Representation>
+              <Label>red</Label>
+              <Label role="Abbrev">rd</Label>
+              <MediaObject role="Secondary" ref="MR" />
+              <MediaObject role="Secondary" ref="MS" />
+              <MediaObject role="Secondary" ref="MT" />
+            </Representation>
+          </StateDefinition>
+        </States>
+        <Assumptions>
+          <MeasurementScale>Nominal</MeasurementScale>
+        </Assumptions>
+      </CategoricalCharacter>
+      <QuantitativeCharacter id="MU">
+        <Representation>
+          <Label>Leaf length</Label>
+          <MediaObject role="Secondary" ref="MV" />
+        </Representation>
+        <Assumptions>
+          <MeasurementScale>Interval</MeasurementScale>
+          <PlausibleRange lower="0" upper="100" />
+        </Assumptions>
+        <MeasurementUnit>
+          <Label>cm</Label>
+        </MeasurementUnit>
+      </QuantitativeCharacter>
+      <TextCharacter id="MW">
+        <Representation>
+          <Label>Literature</Label>
+          <MediaObject role="Secondary" ref="MX" />
+        </Representation>
+      </TextCharacter>
+      <SequenceCharacter id="MY">
+        <Representation>
+          <Label>matK barcode sequence</Label>
+        </Representation>
+        <SequenceType>Nucleotide</SequenceType>
+        <SymbolLength>1</SymbolLength>
+      </SequenceCharacter>
+      <SequenceCharacter id="MZ">
+        <Representation>
+          <Label>rbcL protein sequence</Label>
+        </Representation>
+        <SequenceType>Protein</SequenceType>
+        <SymbolLength>3</SymbolLength>
+        <GapSymbol>---</GapSymbol>
+        <EnableAmbiguitySymbols>1</EnableAmbiguitySymbols>
+      </SequenceCharacter>
+    </Characters>
+    <CharacterTrees>
+      <CharacterTree>
+        <Representation>
+          <Label>Descriptor tree for tutorial</Label>
+        </Representation>
+        <DesignedFor>
+          <Role>DescriptionEditing</Role>
+        </DesignedFor>
+        <ShouldContainAllCharacters>true</ShouldContainAllCharacters>
+        <Nodes>
+          <CharNode>
+            <Character ref="MB" />
+          </CharNode>
+          <CharNode>
+            <RecommendedModifiers>
+              <DescriptiveConcept ref="AG" />
+              <DescriptiveConcept ref="AH" />
+              <DescriptiveConcept ref="AI" />
+              <DescriptiveConcept ref="AJ" />
+              <DescriptiveConcept ref="AK" />
+              <DescriptiveConcept ref="AL" />
+              <DescriptiveConcept ref="AM" />
+              <DescriptiveConcept ref="AN" />
+              <DescriptiveConcept ref="AO" />
+              <DescriptiveConcept ref="AP" />
+              <DescriptiveConcept ref="AQ" />
+              <DescriptiveConcept ref="AR" />
+              <DescriptiveConcept ref="AS" />
+              <DescriptiveConcept ref="AT" />
+            </RecommendedModifiers>
+            <Character ref="MH" />
+          </CharNode>
+          <CharNode>
+            <RecommendedModifiers>
+              <DescriptiveConcept ref="AG" />
+              <DescriptiveConcept ref="AN" />
+              <DescriptiveConcept ref="AU" />
+              <DescriptiveConcept ref="AV" />
+              <DescriptiveConcept ref="AT" />
+            </RecommendedModifiers>
+            <RecommendedMeasures>
+              <StatisticalMeasure>
+                <Representation>
+                  <Label>Central or typical value (human estimate)</Label>
+                </Representation>
+                <Measure type="ObserverEstCentral" />
+              </StatisticalMeasure>
+              <StatisticalMeasure>
+                <Representation>
+                  <Label>Minimum value</Label>
+                </Representation>
+                <Measure type="Min" />
+              </StatisticalMeasure>
+              <StatisticalMeasure>
+                <Representation>
+                  <Label>Maximum value</Label>
+                </Representation>
+                <Measure type="Max" />
+              </StatisticalMeasure>
+              <StatisticalMeasure>
+                <Representation>
+                  <Label>Mean (= average)</Label>
+                </Representation>
+                <Measure type="Mean" />
+              </StatisticalMeasure>
+            </RecommendedMeasures>
+            <Character ref="MU" />
+          </CharNode>
+          <CharNode>
+            <Character ref="MW" />
+          </CharNode>
+          <CharNode>
+            <Character ref="MY" />
+          </CharNode>
+          <CharNode>
+            <Character ref="MZ" />
+          </CharNode>
+        </Nodes>
+      </CharacterTree>
+      <CharacterTree>
+        <Representation>
+          <Label>Structured tree for tutorial</Label>
+        </Representation>
+        <DesignedFor>
+          <Role>DescriptionEditing</Role>
+        </DesignedFor>
+        <ShouldContainAllCharacters>false</ShouldContainAllCharacters>
+        <Nodes>
+          <Node id="NA">
+            <DescriptiveConcept ref="AB" />
+          </Node>
+          <CharNode>
+            <Parent ref="NA" />
+            <Character ref="MB" />
+          </CharNode>
+          <Node id="NB">
+            <DescriptiveConcept ref="AC" />
+          </Node>
+          <CharNode>
+            <Parent ref="NB" />
+            <Character ref="MH" />
+          </CharNode>
+          <CharNode>
+            <Parent ref="NB" />
+            <Character ref="MU" />
+          </CharNode>
+          <Node id="NC">
+            <DescriptiveConcept ref="AE" />
+          </Node>
+          <CharNode>
+            <Parent ref="NC" />
+            <Character ref="MY" />
+          </CharNode>
+          <CharNode>
+            <Parent ref="NC" />
+            <Character ref="MZ" />
+          </CharNode>
+        </Nodes>
+      </CharacterTree>
+      <CharacterTree>
+        <Representation>
+          <Label>Sample data for tutorial</Label>
+        </Representation>
+        <DesignedFor>
+          <Role>DescriptionEditing</Role>
+        </DesignedFor>
+        <ShouldContainAllCharacters>false</ShouldContainAllCharacters>
+        <Nodes>
+          <CharNode>
+            <Character ref="MH" />
+          </CharNode>
+          <CharNode>
+            <Character ref="MU" />
+          </CharNode>
+          <CharNode>
+            <Character ref="MY" />
+          </CharNode>
+          <CharNode>
+            <Character ref="MZ" />
+          </CharNode>
+        </Nodes>
+      </CharacterTree>
+      <CharacterTree>
+        <Representation>
+          <Label>Dependency tree</Label>
+        </Representation>
+        <Nodes>
+          <CharNode>
+            <DependencyRules>
+              <InapplicableIf>
+                <State ref="ME" />
+              </InapplicableIf>
+            </DependencyRules>
+            <Character ref="MH" />
+          </CharNode>
+          <CharNode>
+            <DependencyRules>
+              <InapplicableIf>
+                <State ref="ME" />
+              </InapplicableIf>
+            </DependencyRules>
+            <Character ref="MU" />
+          </CharNode>
+        </Nodes>
+      </CharacterTree>
+    </CharacterTrees>
+    <CodedDescriptions>
+      <CodedDescription id="ND">
+        <Representation>
+          <Label>Example plant</Label>
+          <MediaObject role="Secondary" ref="NE" />
+        </Representation>
+        <Scope>
+          <TaxonName ref="AA" />
+        </Scope>
+        <SummaryData>
+          <Categorical ref="MB" statemodel="OrSet">
+            <State ref="MC" />
+          </Categorical>
+          <Categorical ref="MH" statemodel="OrSet">
+            <Note>Test</Note>
+            <State ref="MJ">
+              <Modifier ref="AP" />
+              <Modifier ref="AI" />
+            </State>
+          </Categorical>
+          <Quantitative ref="MU">
+            <Measure type="Min" value="5" />
+          </Quantitative>
+          <Quantitative ref="MU">
+            <Note>Test</Note>
+            <Modifier ref="AG" />
+            <Measure type="Max" value="10" />
+          </Quantitative>
+          <TextChar ref="MW">
+            <Content>This &lt;u&gt;is&lt;/u&gt; a &lt;b&gt;test &lt;/b&gt;&lt;i&gt;text &lt;/i&gt;with&lt;i&gt; &lt;u&gt;&lt;b&gt;extended&lt;/b&gt;&lt;/u&gt;&lt;/i&gt; attributes.</Content>
+          </TextChar>
+          <TextChar ref="MW">
+            <Status code="DataUnavailable" />
+            <Content> </Content>
+          </TextChar>
+          <Sequence ref="MY">
+            <Sequence>ACCGUCTUA</Sequence>
+          </Sequence>
+          <Sequence ref="MZ">
+            <Note>&gt;Sequenz 2&lt;br /&gt;;Kommentarzeile B&lt;br /&gt;;Kommentarzeile C</Note>
+            <Sequence>SerAlaThrValSerGluIleAsnSerGluThrAspPheValAlaLysAsnAspGlnPheIleAlaLeuThrLysAspThrThrAlaHisIleGlnSerAsnSerLeuGlnSerValGluGluLeuHisSerSerThrIleAsnGlyValLysPheGluGluTyrLeuLysSerGlnIleAlaThrIleGlyGluAsnLeuValValArgArgPheAlaThrLeuLysAlaGlyAlaAsnGlyValValAsnGlyTyrIleHisThrAsnGlyArgValGlyValValIleAlaAlaAlaCysAspSerAlaGluValAlaSerLysSerArgAspLeuLeuArgGlnIleCysMetHis</Sequence>
+          </Sequence>
+          <Sequence ref="MY">
+            <Status code="ToBeChecked" />
+            <Sequence> </Sequence>
+          </Sequence>
+        </SummaryData>
+        <SampleData>
+          <SamplingEvent>
+            <Representation>
+              <Label>Excursion to Ingolstadt</Label>
+              <Detail>2</Detail>
+            </Representation>
+            <DateTime year="2016" month="2" day="11" hour="10" minute="0" second="0" />
+            <DateTimeSpanEnd year="2016" month="2" day="11" hour="16" minute="0" second="0" />
+            <GeographicArea ref="NF" />
+            <Coordinates latitude="48.772190093994141" longitude="11.424943923950195" literal="Derived from Google Maps" geodeticdatum="Coordinates WGS84" />
+            <SamplingUnit>
+              <Categorical ref="MH">
+                <State ref="MJ" />
+              </Categorical>
+              <Categorical ref="MB">
+                <State ref="MC" />
+              </Categorical>
+              <Quantitative ref="MU" value="6" />
+              <Sequence ref="MY">
+                <Note>@M00874:107:000000000-AKPCR:1:1101:8654:1122 1:N:0:16&lt;br /&gt;QUALITY STRING (251 symbols): &lt;br /&gt;ACBCCCEDF,ECFCFFFGGGFGGGAFEGGEGGGGGCFGGEFFGFGGGGGGFGGGDGGFGEG@FEGGGGCEFFGFGGGG9CFGGF8EEFGGGGGEEF7CE8FCECGG,?FGD8CEGFGFCAEFCFGECDFCFGGGCBBFEGGGG:C:F@FEGFFB&lt;DGCFFFGFC&lt;FAAFFC+@+7:F:FGGCFG*&gt;EGBFB@*&gt;:BEF:EEECEE7F8E999@CCFG*:+9+1+1=FGG58EEC9+++:CC:A?CGC&gt;ECC</Note>
+                <Sequence>TCATCTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGATAGGGTCCTCACGGGCCTGACCTCCAACCCCATGTCTAAATTACCTTTGTTGCCTCGGTGGGCCGTCGAAAGCCTATTTTTATGCCTCTGCCGTCGGCCTTAACCCGCCCTCGAGCGCCCACCGACGGATTTTTTAAACCATTTTTGAAACGAGACTTCTGAGTGAAATTTAA</Sequence>
+              </Sequence>
+            </SamplingUnit>
+            <SamplingUnit>
+              <Categorical ref="MH">
+                <State ref="MJ">
+                  <Modifier ref="AI" />
+                </State>
+              </Categorical>
+              <Categorical ref="MB">
+                <State ref="MC" />
+              </Categorical>
+              <Quantitative ref="MU" value="7" />
+            </SamplingUnit>
+            <SamplingUnit>
+              <Categorical ref="MH">
+                <State ref="MJ">
+                  <Modifier ref="AJ" />
+                </State>
+              </Categorical>
+              <Categorical ref="MB">
+                <State ref="MC" />
+              </Categorical>
+              <Quantitative ref="MU" value="5.5" />
+            </SamplingUnit>
+          </SamplingEvent>
+        </SampleData>
+      </CodedDescription>
+    </CodedDescriptions>
+    <GeographicAreas>
+      <GeographicArea id="NF">
+        <Representation>
+          <Label>Germany, Bavaria, Ingolstadt</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:DwbURI>http://tnt.diversityworkbench.de/Gazetteer2/140184</dwb:DwbURI>
+        </dwb:Extension>
+      </GeographicArea>
+    </GeographicAreas>
+    <MediaObjects>
+      <MediaObject id="AD">
+        <Representation>
+          <Label>Leaf</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14696</dwb:Group>
+          <dwb:Variant>tiny_sample</dwb:Variant>
+        </dwb:Extension>
+        <Type>Image</Type>
+        <Source href="https://upload.wikimedia.org/wikipedia/commons/3/34/Lapo_gyslos.jpeg" />
+      </MediaObject>
+      <MediaObject id="MI">
+        <Representation>
+          <Label>Leaf</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14475</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Image</Type>
+        <Source href="http://upload.wikimedia.org/wikipedia/commons/c/c7/Lisc_lipy.jpg" />
+      </MediaObject>
+      <MediaObject id="MK">
+        <Representation>
+          <Label>green</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14477</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Other</Type>
+        <Source href="color://#00ff40" />
+      </MediaObject>
+      <MediaObject id="ML">
+        <Representation>
+          <Label>green</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14478</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Other</Type>
+        <Source href="color://#008000" />
+      </MediaObject>
+      <MediaObject id="MM">
+        <Representation>
+          <Label>green</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14479</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Other</Type>
+        <Source href="color://#004000" />
+      </MediaObject>
+      <MediaObject id="MO">
+        <Representation>
+          <Label>yellow</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14481</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Other</Type>
+        <Source href="color://#ffff80" />
+      </MediaObject>
+      <MediaObject id="MP">
+        <Representation>
+          <Label>yellow</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14482</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Other</Type>
+        <Source href="color://#d9d026" />
+      </MediaObject>
+      <MediaObject id="MR">
+        <Representation>
+          <Label>red</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14484</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Other</Type>
+        <Source href="color://#804040" />
+      </MediaObject>
+      <MediaObject id="MS">
+        <Representation>
+          <Label>red</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14485</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Other</Type>
+        <Source href="color://#ff0000" />
+      </MediaObject>
+      <MediaObject id="MT">
+        <Representation>
+          <Label>red</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14486</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Other</Type>
+        <Source href="color://#ff8040" />
+      </MediaObject>
+      <MediaObject id="MV">
+        <Representation>
+          <Label>Leaf sizes</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14488</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Image</Type>
+        <Source href="http://upload.wikimedia.org/wikipedia/commons/4/43/Blatt_Gliederung.png" />
+      </MediaObject>
+      <MediaObject id="MX">
+        <Representation>
+          <Label>Literature</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14490</dwb:Group>
+          <dwb:Variant>medium_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Image</Type>
+        <Source href="http://upload.wikimedia.org/wikipedia/commons/0/04/Carl_Spitzweg_021.jpg" />
+      </MediaObject>
+      <MediaObject id="NE">
+        <Representation>
+          <Label>Ulmus</Label>
+        </Representation>
+        <dwb:Extension>
+          <dwb:Group>G14521</dwb:Group>
+          <dwb:Variant>good_quality</dwb:Variant>
+        </dwb:Extension>
+        <Type>Image</Type>
+        <Source href="https://upload.wikimedia.org/wikipedia/commons/9/95/Feldulme_(Ulmus_minor).jpg" />
+      </MediaObject>
+    </MediaObjects>
+  </Dataset>
+</Datasets>

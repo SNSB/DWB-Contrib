@@ -14,7 +14,9 @@ For more infrastructure information see [multimedia data-flow at SNSB-IT-center]
 1. [Run](#run)
 1. [Functions](#functions)
     1. ['ProcessImage'](#processImage)
-    1. ['..']
+    1. ['ConvertImage( [array] $ConversionParameters )'](#convertImage)
+    1. ['TransferFilesToWebServer( [string] $ScpFile)'](#transferFilesToWebServer)
+    1. ['SqlProjectDir (), SqlCommands ()'](#sqlProjectDir)
 1. [Examples](#examples)
 
 

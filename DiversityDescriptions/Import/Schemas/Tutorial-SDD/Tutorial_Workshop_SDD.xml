@@ -1,235 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datasets xsi:schemaLocation="http://rs.tdwg.org/UBIF/2006/ http://rs.tdwg.org/UBIF/2006/Schema/1.1/SDD.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:u="http://rs.tdwg.org/UBIF/2006/" xmlns:dwb="http://diversityworkbench.net/Portal/DiversityDescriptions" xmlns="http://rs.tdwg.org/UBIF/2006/">
-  <TechnicalMetadata created="2018-04-24T16:05:52">
-    <Generator name="DiversityDescriptions" version="3.0.1.31" notes="Software Copyright © 1995-2018, Diversity Workbench" />
+  <TechnicalMetadata created="2020-10-22T11:11:20">
+    <Generator name="DiversityDescriptions" version="4.3.0" notes="Software Copyright © 1995-2020, Diversity Workbench" />
   </TechnicalMetadata>
   <Dataset xml:lang="en">
     <Representation>
       <Label>Tutorial</Label>
-      <Detail>This is the tutorial project.</Detail>
-      <Label xml:lang="de">Lehrgang</Label>
-      <Detail xml:lang="de">Das ist das Lehrprojekt.</Detail>
     </Representation>
     <TaxonNames>
       <TaxonName id="AA">
         <Representation>
-          <Label xml:lang="zxx-x-taxon">Ulmus minor minor</Label>
+          <Label xml:lang="zxx-x-taxon">Ulmus minor minor Mill.</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:DwbURI>http://www.catalogueoflife.org/col/webservice?id=69f0bddc8d3a3f2577ee43ca89f44775</dwb:DwbURI>
+          <dwb:DwbURI>http://webservice.catalogueoflife.org/annual-checklist/2014/webservice?id=16950760</dwb:DwbURI>
         </dwb:Extension>
       </TaxonName>
     </TaxonNames>
-    <Specimens>
-      <Specimen id="AB">
-        <Representation>
-          <Label>M-0019350</Label>
-        </Representation>
-        <dwb:Extension>
-          <dwb:DwbURI>http://id.snsb.info/collection_workshop/97103</dwb:DwbURI>
-        </dwb:Extension>
-      </Specimen>
-    </Specimens>
     <DescriptiveConcepts>
-      <DescriptiveConcept id="AC">
+      <DescriptiveConcept id="AB">
         <Representation>
           <Label>Mandatory</Label>
-          <Label role="Abbrev">man.</Label>
-          <Label xml:lang="de">Pflicht</Label>
-          <Label xml:lang="de" role="Abbrev">pfl.</Label>
+        </Representation>
+      </DescriptiveConcept>
+      <DescriptiveConcept id="AC">
+        <Representation>
+          <Label>Leaf</Label>
         </Representation>
       </DescriptiveConcept>
       <DescriptiveConcept id="AD">
         <Representation>
-          <Label>Leaf</Label>
-          <Label xml:lang="de">Blatt</Label>
+          <Label>Biochemical</Label>
         </Representation>
       </DescriptiveConcept>
       <DescriptiveConcept id="AE">
         <Representation>
-          <Label>Biochemical</Label>
-          <Label xml:lang="de">Biochemie</Label>
-        </Representation>
-      </DescriptiveConcept>
-      <DescriptiveConcept id="AF">
-        <Representation>
-          <Label>Proteine</Label>
-          <Detail>Proteine sequences</Detail>
-          <Label xml:lang="de">Protein</Label>
-          <Detail xml:lang="de">Proteinsequenzen</Detail>
-          <MediaObject role="UnknownMediaRole" ref="AG" />
-        </Representation>
-      </DescriptiveConcept>
-      <DescriptiveConcept id="AH">
-        <Representation>
-          <Label>Nucleotide</Label>
-          <Detail>Nucleotide sequences</Detail>
-          <Label xml:lang="de">Nukleotid</Label>
-          <Detail xml:lang="de">Nukleotidsequenzen</Detail>
-          <MediaObject role="UnknownMediaRole" ref="AI" />
-        </Representation>
-      </DescriptiveConcept>
-      <DescriptiveConcept id="AJ">
-        <Representation>
           <Label>RecommendedModifiers</Label>
         </Representation>
         <Modifiers>
-          <Modifier id="AK">
+          <Modifier id="AF">
+            <Representation>
+              <Label>(uncertain)</Label>
+            </Representation>
+            <ModifierClass>Certainty</ModifierClass>
+          </Modifier>
+          <Modifier id="AG">
             <Representation>
               <Label>blackish</Label>
-              <Label xml:lang="de">schwärzlich</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AH">
+            <Representation>
+              <Label>bluish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AI">
+            <Representation>
+              <Label>bright</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AJ">
+            <Representation>
+              <Label>brownish</Label>
+            </Representation>
+            <ModifierClass>OtherModifierClass</ModifierClass>
+          </Modifier>
+          <Modifier id="AK">
+            <Representation>
+              <Label>dark</Label>
             </Representation>
             <ModifierClass>OtherModifierClass</ModifierClass>
           </Modifier>
           <Modifier id="AL">
             <Representation>
-              <Label>bluish</Label>
-              <Label xml:lang="de">bläulich</Label>
+              <Label>deeply</Label>
             </Representation>
             <ModifierClass>OtherModifierClass</ModifierClass>
           </Modifier>
           <Modifier id="AM">
             <Representation>
-              <Label>bright</Label>
-              <Label xml:lang="de">hell</Label>
+              <Label>dull</Label>
             </Representation>
             <ModifierClass>OtherModifierClass</ModifierClass>
           </Modifier>
           <Modifier id="AN">
             <Representation>
-              <Label>brownish</Label>
-              <Label xml:lang="de">bräunlich</Label>
+              <Label>(rare)</Label>
             </Representation>
-            <ModifierClass>OtherModifierClass</ModifierClass>
+            <ModifierClass>Frequency</ModifierClass>
+            <ProportionRange upperestimate="0.05" lowerestimate="0" />
           </Modifier>
           <Modifier id="AO">
             <Representation>
-              <Label>dark</Label>
-              <Label xml:lang="de">dunkel</Label>
-            </Representation>
-            <ModifierClass>OtherModifierClass</ModifierClass>
-          </Modifier>
-          <Modifier id="AP">
-            <Representation>
-              <Label>deeply</Label>
-              <Label xml:lang="de">tief</Label>
-            </Representation>
-            <ModifierClass>OtherModifierClass</ModifierClass>
-          </Modifier>
-          <Modifier id="AQ">
-            <Representation>
-              <Label>dull</Label>
-              <Label xml:lang="de">stumpf</Label>
-            </Representation>
-            <ModifierClass>OtherModifierClass</ModifierClass>
-          </Modifier>
-          <Modifier id="AR">
-            <Representation>
-              <Label>(uncertain)</Label>
-              <Label xml:lang="de">(unsicher)</Label>
-            </Representation>
-            <ModifierClass>Certainty</ModifierClass>
-          </Modifier>
-          <Modifier id="AS">
-            <Representation>
               <Label>in  5-10% of samples</Label>
-              <Label xml:lang="de">in  5-10% der Fälle</Label>
             </Representation>
             <ModifierClass>Frequency</ModifierClass>
             <ProportionRange upperestimate="0.1" lowerestimate="0.05" />
           </Modifier>
-          <Modifier id="AT">
+          <Modifier id="AP">
             <Representation>
               <Label>in 10-25% of samples</Label>
-              <Label xml:lang="de">in 10-25% der Fälle</Label>
             </Representation>
             <ModifierClass>Frequency</ModifierClass>
             <ProportionRange upperestimate="0.25" lowerestimate="0.1" />
           </Modifier>
-          <Modifier id="AU">
+          <Modifier id="AQ">
             <Representation>
               <Label>in 25-50% of samples</Label>
-              <Label xml:lang="de">in 25-50% der Fälle</Label>
             </Representation>
             <ModifierClass>Frequency</ModifierClass>
             <ProportionRange upperestimate="0.5" lowerestimate="0.25" />
           </Modifier>
-          <Modifier id="AV">
+          <Modifier id="AR">
             <Representation>
               <Label>in 50-75% of samples</Label>
-              <Label xml:lang="de">in 50-75% der Fälle</Label>
             </Representation>
             <ModifierClass>Frequency</ModifierClass>
             <ProportionRange upperestimate="0.75" lowerestimate="0.5" />
           </Modifier>
-          <Modifier id="AW">
+          <Modifier id="AS">
             <Representation>
               <Label>in 75-90% of samples</Label>
-              <Label xml:lang="de">in 75-90% der Fälle</Label>
             </Representation>
             <ModifierClass>Frequency</ModifierClass>
-            <ProportionRange upperestimate="0.9" lowerestimate="0.75" />
+            <ProportionRange upperestimate="0.9" lowerestimate="0.9" />
           </Modifier>
-          <Modifier id="AX">
+          <Modifier id="AT">
             <Representation>
               <Label>in 90-95% of samples</Label>
-              <Label xml:lang="de">in 90-95% der Fälle</Label>
             </Representation>
             <ModifierClass>Frequency</ModifierClass>
             <ProportionRange upperestimate="0.95" lowerestimate="0.9" />
-          </Modifier>
-          <Modifier id="AY">
-            <Representation>
-              <Label>(rare)</Label>
-              <Label xml:lang="de">(selten)</Label>
-            </Representation>
-            <ModifierClass>Frequency</ModifierClass>
-            <ProportionRange upperestimate="0.05" lowerestimate="0" />
           </Modifier>
         </Modifiers>
       </DescriptiveConcept>
     </DescriptiveConcepts>
     <Characters>
-      <CategoricalCharacter id="AZ">
+      <CategoricalCharacter id="AU">
         <Representation>
           <Label>Plant growth type</Label>
-          <Label xml:lang="de">Pflanzenwuchstyp</Label>
         </Representation>
         <dwb:Extension>
           <dwb:Mandatory>true</dwb:Mandatory>
           <dwb:Exclusive>true</dwb:Exclusive>
         </dwb:Extension>
         <States>
-          <StateDefinition id="BA">
+          <StateDefinition id="AV">
             <Representation>
               <Label>Tree</Label>
-              <Label xml:lang="de">Baum</Label>
             </Representation>
           </StateDefinition>
-          <StateDefinition id="BB">
+          <StateDefinition id="AW">
             <Representation>
               <Label>Shrub</Label>
-              <Label xml:lang="de">Busch</Label>
             </Representation>
           </StateDefinition>
-          <StateDefinition id="BC">
+          <StateDefinition id="AX">
             <Representation>
               <Label>Succulent</Label>
               <Detail>E.g. cactus - &lt;u&gt;&lt;b&gt;without&lt;/b&gt;&lt;/u&gt; leaves</Detail>
-              <Label xml:lang="de">Sukzulente</Label>
-              <Detail xml:lang="de">Z.b. Kaktus - &lt;u&gt;&lt;b&gt;ohne&lt;/b&gt;&lt;/u&gt; Blätter</Detail>
             </Representation>
           </StateDefinition>
-          <StateDefinition id="BD">
+          <StateDefinition id="AY">
             <Representation>
               <Label>Herb</Label>
-              <Label xml:lang="de">Kraut</Label>
             </Representation>
           </StateDefinition>
-          <StateDefinition id="BE">
+          <StateDefinition id="AZ">
             <Representation>
               <Label>Other</Label>
-              <Label xml:lang="de">Anderes</Label>
             </Representation>
           </StateDefinition>
         </States>
@@ -237,50 +179,36 @@
           <MeasurementScale>Nominal</MeasurementScale>
         </Assumptions>
       </CategoricalCharacter>
-      <CategoricalCharacter id="BF">
+      <CategoricalCharacter id="BA">
         <Representation>
           <Label>Leaf color</Label>
-          <Detail>Colors of the leaves</Detail>
-          <Detail role="InternalNotes">The colors of the leaf</Detail>
-          <Label xml:lang="de">Blattfarbe</Label>
-          <Detail xml:lang="de">Farben der Blätter</Detail>
-          <MediaObject role="UnknownMediaRole" debuglabel="sk:broad" ref="BG" />
+          <MediaObject role="Secondary" ref="BB" />
         </Representation>
         <States>
-          <StateDefinition id="BH">
+          <StateDefinition id="BC">
             <Representation>
               <Label>green</Label>
-              <Label role="Abbrev">GN</Label>
-              <Detail>Shades of green</Detail>
-              <Label xml:lang="de">grün</Label>
-              <Label xml:lang="de" role="Abbrev">gn</Label>
-              <Detail xml:lang="de">Grüntöne</Detail>
-              <MediaObject role="Secondary" ref="BI" />
-              <MediaObject role="Secondary" ref="BJ" />
-              <MediaObject role="Secondary" ref="BK" />
+              <Label role="Abbrev">gn</Label>
+              <MediaObject role="Secondary" ref="BD" />
+              <MediaObject role="Secondary" ref="BE" />
+              <MediaObject role="Secondary" ref="BF" />
             </Representation>
           </StateDefinition>
-          <StateDefinition id="BL">
+          <StateDefinition id="BG">
             <Representation>
               <Label>yellow</Label>
-              <Label role="Abbrev">YE</Label>
-              <Label xml:lang="de">gelb</Label>
-              <Label xml:lang="de" role="Abbrev">ge</Label>
-              <MediaObject role="Secondary" ref="BM" />
-              <MediaObject role="Secondary" ref="BN" />
+              <Label role="Abbrev">ye</Label>
+              <MediaObject role="Secondary" ref="BH" />
+              <MediaObject role="Secondary" ref="BI" />
             </Representation>
           </StateDefinition>
-          <StateDefinition id="BO">
+          <StateDefinition id="BJ">
             <Representation>
               <Label>red</Label>
-              <Label role="Abbrev">RD</Label>
-              <Detail>Shades of red</Detail>
-              <Label xml:lang="de">rot</Label>
-              <Label xml:lang="de" role="Abbrev">rt</Label>
-              <Detail xml:lang="de">Rottöne</Detail>
-              <MediaObject role="Secondary" ref="BP" />
-              <MediaObject role="Secondary" ref="BQ" />
-              <MediaObject role="Secondary" ref="BR" />
+              <Label role="Abbrev">rd</Label>
+              <MediaObject role="Secondary" ref="BK" />
+              <MediaObject role="Secondary" ref="BL" />
+              <MediaObject role="Secondary" ref="BM" />
             </Representation>
           </StateDefinition>
         </States>
@@ -288,11 +216,10 @@
           <MeasurementScale>Nominal</MeasurementScale>
         </Assumptions>
       </CategoricalCharacter>
-      <QuantitativeCharacter id="BS">
+      <QuantitativeCharacter id="BN">
         <Representation>
           <Label>Leaf length</Label>
-          <Label xml:lang="de">Blattlänge</Label>
-          <MediaObject role="Secondary" ref="BT" />
+          <MediaObject role="Secondary" ref="BO" />
         </Representation>
         <Assumptions>
           <MeasurementScale>Interval</MeasurementScale>
@@ -302,27 +229,22 @@
           <Label>cm</Label>
         </MeasurementUnit>
       </QuantitativeCharacter>
-      <TextCharacter id="BU">
+      <TextCharacter id="BP">
         <Representation>
           <Label>Literature</Label>
-          <Detail>Literature references</Detail>
-          <Label xml:lang="de">Literatur</Label>
-          <Detail xml:lang="de">Literaturreferenzen</Detail>
-          <MediaObject role="Secondary" ref="BV" />
+          <MediaObject role="Secondary" ref="BQ" />
         </Representation>
       </TextCharacter>
-      <SequenceCharacter id="BW">
+      <SequenceCharacter id="BR">
         <Representation>
           <Label>matK barcode sequence</Label>
-          <Label xml:lang="de">matK Barcodesequenz</Label>
         </Representation>
         <SequenceType>Nucleotide</SequenceType>
         <SymbolLength>1</SymbolLength>
       </SequenceCharacter>
-      <SequenceCharacter id="BX">
+      <SequenceCharacter id="BS">
         <Representation>
           <Label>rbcL protein sequence</Label>
-          <Label xml:lang="de">rbcL Proteinsequenz</Label>
         </Representation>
         <SequenceType>Protein</SequenceType>
         <SymbolLength>3</SymbolLength>
@@ -334,7 +256,6 @@
       <CharacterTree>
         <Representation>
           <Label>Descriptor tree for tutorial</Label>
-          <Label xml:lang="de">Descriptorbaum für Tutorial</Label>
         </Representation>
         <DesignedFor>
           <Role>DescriptionEditing</Role>
@@ -342,10 +263,15 @@
         <ShouldContainAllCharacters>true</ShouldContainAllCharacters>
         <Nodes>
           <CharNode>
-            <Character ref="AZ" />
+            <Character ref="AU" />
           </CharNode>
           <CharNode>
             <RecommendedModifiers>
+              <DescriptiveConcept ref="AF" />
+              <DescriptiveConcept ref="AG" />
+              <DescriptiveConcept ref="AH" />
+              <DescriptiveConcept ref="AI" />
+              <DescriptiveConcept ref="AJ" />
               <DescriptiveConcept ref="AK" />
               <DescriptiveConcept ref="AL" />
               <DescriptiveConcept ref="AM" />
@@ -356,19 +282,15 @@
               <DescriptiveConcept ref="AR" />
               <DescriptiveConcept ref="AS" />
               <DescriptiveConcept ref="AT" />
-              <DescriptiveConcept ref="AU" />
-              <DescriptiveConcept ref="AV" />
-              <DescriptiveConcept ref="AW" />
-              <DescriptiveConcept ref="AX" />
             </RecommendedModifiers>
-            <Character ref="BF" />
+            <Character ref="BA" />
           </CharNode>
           <CharNode>
             <RecommendedModifiers>
-              <DescriptiveConcept ref="AQ" />
-              <DescriptiveConcept ref="AR" />
-              <DescriptiveConcept ref="AX" />
-              <DescriptiveConcept ref="AY" />
+              <DescriptiveConcept ref="AF" />
+              <DescriptiveConcept ref="AM" />
+              <DescriptiveConcept ref="AN" />
+              <DescriptiveConcept ref="AT" />
             </RecommendedModifiers>
             <RecommendedMeasures>
               <StatisticalMeasure>
@@ -390,72 +312,62 @@
                 <Measure type="Mean" />
               </StatisticalMeasure>
             </RecommendedMeasures>
+            <Character ref="BN" />
+          </CharNode>
+          <CharNode>
+            <Character ref="BP" />
+          </CharNode>
+          <CharNode>
+            <Character ref="BR" />
+          </CharNode>
+          <CharNode>
             <Character ref="BS" />
-          </CharNode>
-          <CharNode>
-            <Character ref="BU" />
-          </CharNode>
-          <CharNode>
-            <Character ref="BW" />
-          </CharNode>
-          <CharNode>
-            <Character ref="BX" />
           </CharNode>
         </Nodes>
       </CharacterTree>
       <CharacterTree>
         <Representation>
           <Label>Structured tree for tutorial</Label>
-          <Label xml:lang="de">Strukturierter Descriptorbaum für Tutorial</Label>
         </Representation>
         <DesignedFor>
           <Role>DescriptionEditing</Role>
         </DesignedFor>
         <ShouldContainAllCharacters>false</ShouldContainAllCharacters>
         <Nodes>
-          <Node id="BY">
+          <Node id="BT">
+            <DescriptiveConcept ref="AB" />
+          </Node>
+          <CharNode>
+            <Parent ref="BT" />
+            <Character ref="AU" />
+          </CharNode>
+          <Node id="BU">
             <DescriptiveConcept ref="AC" />
           </Node>
           <CharNode>
-            <Parent ref="BY" />
-            <Character ref="AZ" />
+            <Parent ref="BU" />
+            <Character ref="BA" />
           </CharNode>
-          <Node id="BZ">
+          <CharNode>
+            <Parent ref="BU" />
+            <Character ref="BN" />
+          </CharNode>
+          <Node id="BV">
             <DescriptiveConcept ref="AD" />
           </Node>
           <CharNode>
-            <Parent ref="BZ" />
-            <Character ref="BF" />
+            <Parent ref="BV" />
+            <Character ref="BR" />
           </CharNode>
           <CharNode>
-            <Parent ref="BZ" />
+            <Parent ref="BV" />
             <Character ref="BS" />
-          </CharNode>
-          <Node id="CA">
-            <DescriptiveConcept ref="AE" />
-          </Node>
-          <Node id="CB">
-            <Parent ref="CA" />
-            <DescriptiveConcept ref="AF" />
-          </Node>
-          <CharNode>
-            <Parent ref="CB" />
-            <Character ref="BX" />
-          </CharNode>
-          <Node id="CC">
-            <Parent ref="CA" />
-            <DescriptiveConcept ref="AH" />
-          </Node>
-          <CharNode>
-            <Parent ref="CC" />
-            <Character ref="BW" />
           </CharNode>
         </Nodes>
       </CharacterTree>
       <CharacterTree>
         <Representation>
           <Label>Sample data for tutorial</Label>
-          <Label xml:lang="de">Sampledaten für Tutorial</Label>
         </Representation>
         <DesignedFor>
           <Role>DescriptionEditing</Role>
@@ -463,16 +375,16 @@
         <ShouldContainAllCharacters>false</ShouldContainAllCharacters>
         <Nodes>
           <CharNode>
-            <Character ref="BF" />
+            <Character ref="BA" />
+          </CharNode>
+          <CharNode>
+            <Character ref="BN" />
+          </CharNode>
+          <CharNode>
+            <Character ref="BR" />
           </CharNode>
           <CharNode>
             <Character ref="BS" />
-          </CharNode>
-          <CharNode>
-            <Character ref="BW" />
-          </CharNode>
-          <CharNode>
-            <Character ref="BX" />
           </CharNode>
         </Nodes>
       </CharacterTree>
@@ -484,68 +396,62 @@
           <CharNode>
             <DependencyRules>
               <InapplicableIf>
-                <State ref="BC" />
+                <State ref="AX" />
               </InapplicableIf>
             </DependencyRules>
-            <Character ref="BF" />
+            <Character ref="BA" />
           </CharNode>
           <CharNode>
             <DependencyRules>
               <InapplicableIf>
-                <State ref="BC" />
+                <State ref="AX" />
               </InapplicableIf>
             </DependencyRules>
-            <Character ref="BS" />
+            <Character ref="BN" />
           </CharNode>
         </Nodes>
       </CharacterTree>
     </CharacterTrees>
     <CodedDescriptions>
-      <CodedDescription id="CD">
+      <CodedDescription id="BW">
         <Representation>
           <Label>Example plant</Label>
-          <Label xml:lang="de">Beispielpflanze</Label>
-          <MediaObject role="Secondary" ref="CE" />
+          <MediaObject role="Secondary" ref="BX" />
         </Representation>
         <Scope>
           <TaxonName ref="AA" />
         </Scope>
         <SummaryData>
-          <Categorical ref="BF" statemodel="OrSet">
+          <Categorical ref="AU" statemodel="OrSet">
+            <State ref="AV" />
+          </Categorical>
+          <Categorical ref="BA" statemodel="OrSet">
             <Note>Test</Note>
-            <State ref="BH">
-              <Modifier ref="AT" />
-              <Modifier ref="AL" />
+            <State ref="BC">
+              <Modifier ref="AP" />
+              <Modifier ref="AH" />
             </State>
           </Categorical>
-          <Categorical ref="AZ" statemodel="OrSet">
-            <State ref="BA" />
-          </Categorical>
-          <Categorical statemodel="OrSet" ref="AZ">
-            <Status code="ToBeChecked">
-              <Note>This is the most important character</Note>
-            </Status>
-          </Categorical>
-          <Quantitative ref="BS">
+          <Quantitative ref="BN">
             <Measure type="Min" value="5" />
           </Quantitative>
-          <Quantitative ref="BS">
+          <Quantitative ref="BN">
             <Note>Test</Note>
-            <Modifier ref="AR" />
+            <Modifier ref="AF" />
             <Measure type="Max" value="10" />
           </Quantitative>
-          <Sequence ref="BW">
+          <Sequence ref="BR">
             <Sequence>ACCGUCT</Sequence>
           </Sequence>
-          <Sequence ref="BX">
+          <Sequence ref="BS">
             <Note>&gt;Sequenz 2&lt;br /&gt;;Kommentarzeile B&lt;br /&gt;;Kommentarzeile C</Note>
             <Sequence>SerAlaThrValSerGluIleAsnSerGluThrAspPheValAlaLysAsnAspGlnPheIleAlaLeuThrLysAspThrThrAlaHisIleGlnSerAsnSerLeuGlnSerValGluGluLeuHisSerSerThrIleAsnGlyValLysPheGluGluTyrLeuLysSerGlnIleAlaThrIleGlyGluAsnLeuValValArgArgPheAlaThrLeuLysAlaGlyAlaAsnGlyValValAsnGlyTyrIleHisThrAsnGlyArgValGlyValValIleAlaAlaAlaCysAspSerAlaGluValAlaSerLysSerArgAspLeuLeuArgGlnIleCysMetHis</Sequence>
           </Sequence>
-          <Sequence ref="BW">
+          <Sequence ref="BR">
             <Status code="ToBeChecked" />
             <Sequence> </Sequence>
           </Sequence>
-          <TextChar ref="BU">
+          <TextChar ref="BP">
             <Status code="DataUnavailable" />
             <Content> </Content>
           </TextChar>
@@ -554,226 +460,172 @@
           <SamplingEvent>
             <Representation>
               <Label>Excursion to Ingolstadt</Label>
-              <Detail>Data collected during an excursion to Ingolstadt.</Detail>
-              <Label xml:lang="de">Exkursion nach Ingolstadt</Label>
-              <Detail xml:lang="de">Daten, die bei einer Exkursion nach Ingolstadt gesammelt wurden.</Detail>
             </Representation>
             <DateTime year="2016" month="2" day="11" hour="10" minute="0" second="0" />
             <DateTimeSpanEnd year="2016" month="2" day="11" hour="16" minute="0" second="0" />
-            <GeographicArea ref="CF" />
+            <GeographicArea ref="BY" />
             <Coordinates latitude="48.772190093994141" longitude="11.424943923950195" literal="Derived from Google Maps" geodeticdatum="Coordinates WGS84" />
             <SamplingUnit>
-              <Text ref="AB">
-                <Content> </Content>
-              </Text>
-              <Categorical ref="BF">
-                <State ref="BH" />
+              <Categorical ref="BA">
+                <State ref="BC" />
               </Categorical>
-              <Categorical ref="AZ">
-                <State ref="BA" />
-              </Categorical>
-              <Quantitative ref="BS" value="6" />
-              <Sequence ref="BW">
-                <Note>@M00874:107:000000000-AKPCR:1:1101:8654:1122 1:N:0:16&lt;br /&gt;QUALITY STRING (251 symbols): &lt;br /&gt;ACBCCCEDF,ECFCFFFGGGFGGGAFEGGEGGGGGCFGGEFFGFGGGGGGFGGGDGGFGEG@FEGGGGCEFFGFGGGG9CFGGF8EEFGGGGGEEF7CE8FCECGG,?FGD8CEGFGFCAEFCFGECDFCFGGGCBBFEGGGG:C:F@FEGFFB&lt;DGCFFFGFC&lt;FAAFFC+@+7:F:FGGCFG*&gt;EGBFB@*&gt;:BEF:EEECEE7F8E999@CCFG*:+9+1+1=FGG58EEC9+++:CC:A?CGC&gt;ECC</Note>
-                <Sequence>TCATCTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGATAGGGTCCTCACGGGCCTGACCTCCAACCCCATGTCTAAATTACCTTTGTTGCCTCGGTGGGCCGTCGAAAGCCTATTTTTATGCCTCTGCCGTCGGCCTTAACCCGCCCTCGAGCGCCCACCGACGGATTTTTTAAACCATTTTTGAAACGAGACTTCTGAGTGAAATTTAA</Sequence>
-              </Sequence>
+              <Quantitative ref="BN" value="6" />
             </SamplingUnit>
             <SamplingUnit>
-              <Categorical ref="BF">
-                <State ref="BH">
-                  <Modifier ref="AL" />
+              <Categorical ref="BA">
+                <State ref="BC">
+                  <Modifier ref="AH" />
                 </State>
               </Categorical>
-              <Categorical ref="AZ">
-                <State ref="BA" />
-              </Categorical>
-              <Quantitative ref="BS" value="7" />
+              <Quantitative ref="BN" value="7" />
             </SamplingUnit>
             <SamplingUnit>
-              <Categorical ref="BF">
-                <State ref="BH">
-                  <Modifier ref="AM" />
+              <Categorical ref="BA">
+                <State ref="BC">
+                  <Modifier ref="AI" />
                 </State>
               </Categorical>
-              <Categorical ref="AZ">
-                <State ref="BA" />
-              </Categorical>
-              <Quantitative ref="BS" value="5.5" />
+              <Quantitative ref="BN" value="5.5" />
             </SamplingUnit>
           </SamplingEvent>
         </SampleData>
       </CodedDescription>
     </CodedDescriptions>
     <GeographicAreas>
-      <GeographicArea id="CF">
+      <GeographicArea id="BY">
         <Representation>
           <Label>Ingolstadt</Label>
         </Representation>
       </GeographicArea>
     </GeographicAreas>
     <MediaObjects>
-      <MediaObject id="AG">
-        <Representation>
-          <Label>Proteine</Label>
-          <Label xml:lang="de">Proteine</Label>
-        </Representation>
-        <dwb:Extension>
-          <dwb:Group>G4144</dwb:Group>
-          <dwb:Variant>tiny_sample</dwb:Variant>
-        </dwb:Extension>
-        <Type>Image</Type>
-        <Source href="https://upload.wikimedia.org/wikipedia/commons/6/60/Myoglobin.png" />
-      </MediaObject>
-      <MediaObject id="AI">
-        <Representation>
-          <Label>DNA</Label>
-        </Representation>
-        <dwb:Extension>
-          <dwb:Group>G4143</dwb:Group>
-          <dwb:Variant>tiny_sample</dwb:Variant>
-        </dwb:Extension>
-        <Type>Image</Type>
-        <Source href="https://upload.wikimedia.org/wikipedia/commons/1/16/DNA_orbit_animated.gif" />
-      </MediaObject>
-      <MediaObject id="BG">
+      <MediaObject id="BB">
         <Representation>
           <Label>Leaf</Label>
-          <Label xml:lang="de">Blatt</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G116</dwb:Group>
+          <dwb:Group>G45759</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Image</Type>
         <Source href="http://upload.wikimedia.org/wikipedia/commons/c/c7/Lisc_lipy.jpg" />
       </MediaObject>
-      <MediaObject id="BI">
+      <MediaObject id="BD">
         <Representation>
           <Label>green</Label>
-          <Label xml:lang="de">grün</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G126</dwb:Group>
+          <dwb:Group>G45761</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Other</Type>
         <Source href="color://#00ff40" />
       </MediaObject>
-      <MediaObject id="BJ">
+      <MediaObject id="BE">
         <Representation>
           <Label>green</Label>
-          <Label xml:lang="de">grün</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G127</dwb:Group>
+          <dwb:Group>G45762</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Other</Type>
         <Source href="color://#008000" />
       </MediaObject>
-      <MediaObject id="BK">
+      <MediaObject id="BF">
         <Representation>
           <Label>green</Label>
-          <Label xml:lang="de">grün</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G128</dwb:Group>
+          <dwb:Group>G45763</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Other</Type>
         <Source href="color://#004000" />
       </MediaObject>
-      <MediaObject id="BM">
+      <MediaObject id="BH">
         <Representation>
           <Label>yellow</Label>
-          <Label xml:lang="de">gelb</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G129</dwb:Group>
+          <dwb:Group>G45765</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Other</Type>
         <Source href="color://#ffff80" />
       </MediaObject>
-      <MediaObject id="BN">
+      <MediaObject id="BI">
         <Representation>
           <Label>yellow</Label>
-          <Label xml:lang="de">gelb</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G130</dwb:Group>
+          <dwb:Group>G45766</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Other</Type>
         <Source href="color://#d9d026" />
       </MediaObject>
-      <MediaObject id="BP">
+      <MediaObject id="BK">
         <Representation>
           <Label>red</Label>
-          <Label xml:lang="de">rot</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G131</dwb:Group>
+          <dwb:Group>G45768</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Other</Type>
         <Source href="color://#804040" />
       </MediaObject>
-      <MediaObject id="BQ">
+      <MediaObject id="BL">
         <Representation>
           <Label>red</Label>
-          <Label xml:lang="de">rot</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G132</dwb:Group>
+          <dwb:Group>G45769</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Other</Type>
         <Source href="color://#ff0000" />
       </MediaObject>
-      <MediaObject id="BR">
+      <MediaObject id="BM">
         <Representation>
           <Label>red</Label>
-          <Label xml:lang="de">rot</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G133</dwb:Group>
+          <dwb:Group>G45770</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Other</Type>
         <Source href="color://#ff8040" />
       </MediaObject>
-      <MediaObject id="BT">
+      <MediaObject id="BO">
         <Representation>
           <Label>Leaf sizes</Label>
-          <Label xml:lang="de">Blattmaße</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G117</dwb:Group>
+          <dwb:Group>G45772</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Image</Type>
         <Source href="http://upload.wikimedia.org/wikipedia/commons/4/43/Blatt_Gliederung.png" />
       </MediaObject>
-      <MediaObject id="BV">
+      <MediaObject id="BQ">
         <Representation>
           <Label>Literature</Label>
-          <Label xml:lang="de">Literatur</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G118</dwb:Group>
+          <dwb:Group>G45774</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Image</Type>
         <Source href="http://upload.wikimedia.org/wikipedia/commons/0/04/Carl_Spitzweg_021.jpg" />
       </MediaObject>
-      <MediaObject id="CE">
+      <MediaObject id="BX">
         <Representation>
           <Label>Ulmus</Label>
-          <Label xml:lang="de">Ulmus</Label>
         </Representation>
         <dwb:Extension>
-          <dwb:Group>G3568</dwb:Group>
+          <dwb:Group>G45799</dwb:Group>
           <dwb:Variant>tiny_sample</dwb:Variant>
         </dwb:Extension>
         <Type>Image</Type>

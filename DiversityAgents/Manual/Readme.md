@@ -20,7 +20,7 @@
     - ACHTUNG - Case sensitiv. Namen müssen stimmen
     - Icons gegebenenfalls freistellen für Darkmode
   - Entfernung aller störenden Formatierungsangaben
-  - Entferung der Kopfzeile (Überschrift wird von HUGO automatisch erzeugt)
+  - Entfernung der Kopfzeile (Überschrift wird von HUGO automatisch erzeugt)
 - Korrektur der internen Verweise
   - ändern von 
     ```

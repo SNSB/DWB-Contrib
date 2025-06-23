@@ -1,5 +1,3 @@
-xslt files for various DWB-Clients used for creating imports and exports and printing labels
-
 # Label Printing XSLT Schemas
 This folder contains XSLT schema files used for printing labels. Each XSLT file defines the structure, styles, and transformations required for generating labels tailored to specific institutions or use cases.
 ## Folder Structure
